@@ -1,0 +1,146 @@
+/**
+* Settings CSS.
+*
+* This may have to deal with other views that utilize this layout.
+*/
+
+.gamepadpagedsettings_PagedSettingsDialog_2P_CG {
+  background: var(--srcery-black) !important;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
+  border-color: var(--srcery-black);
+  background: var(--srcery-xgray1);
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+  background: transparent;
+}
+
+/* Left Tab */
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
+  color: var(--srcery-white);
+}
+
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+  color: var(--srcery-bright-white);
+}
+
+/* Selected Left Tab */
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB,
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+  animation-name: settingsTabFocusAnimation;
+}
+
+/* Separator line on left section */
+.gamepadpagedsettings_Separator_3vV7l {
+  background: var(--srcery-bright-white);
+}
+
+.remoteplaysettings_TableHeader_1HL6K,
+.settings_SettingsDialogSubHeader_2rK4Y,
+.gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader,
+.gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
+  color: var(--srcery-white) !important;
+}
+
+
+/** Storage pane */
+.contentmanagement_ContentManagement_3wk64 {
+  background: transparent !important;
+}
+
+/* pills */
+.contentmanagement_InstallFolder_12aBP:focus,
+.contentmanagement_InstallFolder_12aBP.gpfocus{
+  background: var(--srcery-bright-white) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP svg,
+.contentmanagement_DriveName_1rihl,
+.contentmanagement_DriveSize_5bG9I {
+  color: var(--srcery-white);
+}
+
+/* Star icon for favorite install directory. */
+.contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
+  color: var(--srcery-yellow) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
+  background: var(--srcery-white);
+}
+
+.contentmanagement_IsSelected_3VQeL svg,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I {
+  color: var(--srcery-black);
+}
+
+/* Usage bar colors */
+
+.contentmanagement_DriveUsageIndicator_1EubJ {
+  background: var(--srcery-xgray3) !important;
+}
+
+.contentmanagement_DriveUsageGames_22KCi {
+  background: var(--srcery-blue) !important;
+}
+
+.contentmanagement_DriveUsageDLC_2W7tN {
+  background: var(--srcery-magenta) !important;
+}
+
+.contentmanagement_DriveUsageWorkshop_1W6jW {
+  background: var(--srcery-green) !important;
+}
+
+.contentmanagement_DriveUsageUpdates_3mzew {
+  background: var(--srcery-orange) !important;
+}
+
+.contentmanagement_DriveUsageOther_1SwNA {
+  background: var(--srcery-yellow) !important;
+}
+
+.contentmanagement_DriveUsageText_1DFCG {
+  color: var(--srcery-xgray6) !important;
+}
+
+.contentmanagement_DriveUsageNumber_181OY {
+  color: var(--srcery-xgray3) !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO {
+  background: var(--srcery-xgray3) !important;
+  color: var(--srcery-white) !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO.gpfocus {
+  background: var(--srcery-xgray6) !important;
+}
+
+/* Game Names */
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
+  background: var(--srcery-xgray3) !important;
+}
+
+.contentmanagement_AppName_YxhO6 {
+  color: var(--srcery-white) !important;
+}
+
+.contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageText_1G9v2,
+.contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--srcery-xgray-12) !important;
+}
+
+.contentmanagement_AppSize_mohK9 {
+  color: var(--srcery-white) !important;
+}
+
+/** Library pane */
+.librarysettings_LibrarySettings_2nsOY {
+  background: var(--srcery-black) !important;
+}

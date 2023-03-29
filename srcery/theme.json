@@ -1,0 +1,84 @@
+{
+  "name": "Srcery",
+  "description": "A color scheme with clearly defined constrasting colors and a slightly earthy tone. See more at https://srcery.sh",
+  "author": "milogert, Srcery Colors",
+  "version": "v0.1",
+  "manifest_version": 4,
+  "target": "System-Wide",
+  "inject": {
+    "shared.css": ["All"],
+    "home-page.css": ["All"],
+    "system.css": ["SP"],
+    "notifications.css": ["All"],
+    "toggle-switch.css": ["All"],
+    "pill-menus.css": ["SP"],
+    "friends-list.css": ["SP"],
+    "downloads.css": ["SP"]
+  },
+ "dependencies": {},
+  "patches": {
+    "Fullscreen Modals": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "fullscreen-modals.css": ["SP"] },
+        "No": {}
+      }
+    },
+    "Font": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "font.css": ["All"] },
+        "No": {}
+      }
+    },
+    "Quick Access": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "quick-access-menu.css": ["QuickAccess"] },
+        "No": {}
+      }
+    },
+    "Main Menu": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "main-menu.css": ["MainMenu"] },
+        "No": {}
+      }
+    },
+    "Settings": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "settings.css": ["SP"] },
+        "No": {}
+      }
+    },
+    "Components": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "Components.css": ["SP"] },
+        "No": {}
+      }
+    },
+    "Controller Settings": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "controller-settings.css": ["SP", "MainMenu"] },
+        "No": {}
+      }
+    },
+    "In-Game Overlay": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "in-game-overlay.css": ["MainMenu"] },
+        "No": {}
+      }
+    },
+    "Patches": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "Custom.css": ["SP"] },
+        "No": {}
+      }
+    }
+  }
+}

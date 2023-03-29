@@ -1,0 +1,173 @@
+/* Remove Background from Controller config menu */
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_BottomSection_3RsRf,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_ControllerConfiguratorMain_APY6j {
+  background: transparent;
+}
+
+/* Theme buttons in top bar */
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .DialogButton,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_CommunityConfigsCallout_1xfC8 {
+  /* border-radius: 0 !important; */
+  background: var(--srcery-white);
+  color: var(--srcery-bright-white);
+}
+
+/* Hover on buttons in top bar */
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 button.DialogButton.gamepaddialog_Button_1kn70.gpfocus {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* Add color to the rest of the labels */
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .DialogButton.gamepaddialog_Button_1kn70:enabled,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w .controllerconfigurator_SubTitle_2-E4i {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 .controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .controllerconfigurator_SubTitle_2-E4i {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_QuickSettingsHeader_3gVR5 {
+  color: var(--srcery-bright-white);
+}
+
+/** Select new layout */
+.controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 h1 {
+  color: var(--srcery-bright-white);
+}
+
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
+  background: none;
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
+  border-left-color: var(--srcery-blue);
+  background: linear-gradient(90deg, var(--srcery-xgray6) 0%, var(--srcery-xgray3) 20%);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL.gpfocus,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6 {
+  filter: var(--srcery-bright-white-filter);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL.gpfocus .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus .controllerconfiguratorchooseconfiguration_IconContainer_2kPo6 {
+  filter: var(--srcery-black-filter);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG .controllerconfiguratorchooseconfiguration_Title_EI1IQ {
+  color: var(--srcery-bright-white);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ {
+  color: var(--srcery-black);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN .controllerconfiguratorchooseconfiguration_Description_3XAvq,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL .controllerconfiguratorchooseconfiguration_Description_3XAvq,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG .controllerconfiguratorchooseconfiguration_Description_3XAvq {
+  color: var(--srcery-white);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Recommended_2v9eL.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq {
+  color: var(--srcery-xgray1);
+}
+
+/* Search box */
+.controllerconfiguratorchooseconfiguration_SearchBox_1H4cu {
+  border-radius: 4px;
+  border: transparent;
+  padding: 5px;
+  background: var(--srcery-xgray3);
+  color: var(--srcery-white);
+}
+
+.controllerconfiguratorchooseconfiguration_SearchBox_1H4cu.gpfocus.gpfocuswithin {
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white);
+}
+
+/* Controller overview */
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
+  background: var(--srcery-hard-black);
+}
+
+.controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_Title_12Taa,
+.controllerconfiguratorsummary_ControllerInputDisplay_27Q1T .controllerconfiguratorsummary_ActivatorText_2BHzj {
+  color: var(--srcery-bright-white);
+}
+
+.controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_StandardControl_pywHI,
+.controllerconfiguratorsummary_ControllerInputDisplay_27Q1T .controllerconfiguratorsummary_StandardControl_pywHI {
+  color: var(--srcery-white);
+}
+
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+  margin-bottom: 0.5rem;
+}
+
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs.gpfocus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_DirectAccessButton_QAVEl:focus {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-xgray6);
+  border-color: var(--srcery-xgray6);
+}
+
+/* TODO how to color the Steam Deck image? */
+
+.controllerconfigurator_SectionGlyph_3AFlG,
+.controllerconfiguratorsummary_MediumGlyphIcon_2nNX3 {
+  filter: var(--srcery-bright-white-filter);
+}
+
+.gamepadpagedsettings_Active_22LLB .controllerconfigurator_SectionGlyph_3AFlG,
+.gamepadpagedsettings_Active_22LLB .controllerconfiguratorsummary_MediumGlyphIcon_2nNX3 {
+  filter: var(--srcery-black-filter);
+}
+
+.controllerconfiguratormapping_FlexFlowRow_2_Bof > div {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+.FriendsListAndChatsSteamDeck .GamepadMode.friendlist {
+  border-right: none;
+}
+
+.FriendsListAndChatsSteamDeck .GamepadMode.friendlist,
+.FriendsListAndChatsSteamDeck .SteamDeckChats .multiChatDialog {
+  background: transparent;
+}
+
+.chatWindow .chatEntry>*.GamepadMode, .GamepadMode .chatWindow .chatEntry>* {
+  background: var(--srcery-xgray1);
+  box-shadow: none;
+}
+
+.multiChatDialog.GamepadMode.gpfocuswithin .chatWindow .chatEntry>*, .GamepadMode .multiChatDialog.gpfocuswithin .chatWindow .chatEntry>* {
+  background: var(--srcery-xgray3);
+}
+
+.chatentry_chatTextarea_pewyB.GamepadMode.gpfocus, .GamepadMode .chatentry_chatTextarea_pewyB.gpfocus {
+  color: var(--srcery-bright-white);
+}
+
+.chatentry_chatEntryControls_2gP0D .chatentry_chatSubmitButton_1IEiK.GamepadMode, .GamepadMode .chatentry_chatEntryControls_2gP0D .chatentry_chatSubmitButton_1IEiK {
+  color: var(--srcery-xgray3)
+}
+
+.SteamDeckChats.gpfocuswithin .RightSideButtonContainer .AddFriendButton, .SteamDeckChats.gpfocuswithin .RightSideButtonContainer .inviteAnotherFriendButton {
+  background: var(--srcery-xgray3);
+}
+
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
+  background: var(--srcery-black);
+  border-color: var(--srcery-bright-black);
+}
+
+.ChatHistorySelector {
+  background: transparent;
+}

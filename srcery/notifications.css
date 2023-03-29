@@ -1,0 +1,25 @@
+.notificationcontent_Content_2TTnY {
+  background-color: var(--srcery-black) !important;
+}
+.notificationcontent_Header_1KnyC,
+.notificationcontent_Icon_opgc6,
+.notificationcontent_Title_3qzN6,
+.notificationcontent_PinnedBody_3V6Rp {
+  color: var(--srcery-bright-white) !important;
+}
+
+.notificationcontent_Timestamp_3q7nN {
+  color: var(--srcery-xgray4) !important;
+}
+
+.notificationcontent_StandardNotificationDescription_zB56A {
+  color: var(--srcery-white) !important;
+}
+
+.notificationcontent_StandardNotificationSubText_EVwRp {
+  color: var(--srcery-bright-black) !important;
+}
+
+.notificationcontent_FriendInGameAppColor_3uw_G {
+  color: var(--srcery-green) !important;
+}

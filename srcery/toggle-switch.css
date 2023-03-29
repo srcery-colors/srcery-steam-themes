@@ -1,0 +1,61 @@
+/* Slider handle */
+.gamepaddialog_ToggleSwitch_3__OD,
+.gamepadslider_SliderControlAndNotches_1Cccx .gamepadslider_SliderHandle_2yVKj {
+  background: var(--srcery-white) !important;
+  border-color: var(--srcery-black) !important;
+}
+
+/* Dropdown, Button highlight */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddropdown_DropDownControlButton_28bny,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_Button_1kn70 {
+  background: var(--srcery-xgray6) !important;
+  color: var(--srcery-bright-white) !important;
+}
+
+.gamepaddialog_Toggle_24G4g.gpfocus:after {
+  background-color: var(--srcery-black) !important;
+}
+
+.gamepaddialog_ToggleRail_2JtC3 {
+  background: var(--srcery-xgray6) !important;
+}
+
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_ToggleRail_2JtC3 {
+  background: var(--srcery-xgray3) !important;
+}
+
+/* Slider tick text */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchLabel_u_sH1 {
+  color: var(--srcery-black) !important;
+}
+
+/* Slider tick deactivated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht {
+  background-color: var(--srcery-bright-white);
+}
+
+/* Slider tick activated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+  background-color: var(--srcery-black);
+}
+
+/* Slider empty area */
+/* .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N { */
+/*   background: var(--srcery-bright-black); */
+/* } */
+
+/* Slider filled area */
+/* .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N::before { */
+/*   background: var(--srcery-black); */
+/* } */
+
+
+/* Slider handles when they are focused */
+.gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD,
+.gamepadslider_SliderControlAndNotches_1Cccx:not(.gamepadslider_Disabled_1lI1N).gpfocus .gamepadslider_SliderHandle_2yVKj {
+  background: var(--srcery-bright-white) !important;
+}
+
+.gamepadslider_Icon_21uKi svg {
+  color: var(--srcery-bright-white);
+}

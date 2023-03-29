@@ -1,0 +1,41 @@
+@keyframes downloads_ItemFocusAnim-darkGrey_2_NVa {
+  from {
+    background: var(--srcery-xgray6);
+    color: var(--srcery-white);
+  }
+
+  to {
+    background: var(--srcery-xgray3);
+    color: var(--srcery-bright-white);
+  }
+}
+
+@keyframes downloads_ItemFocusAnimBorder-darkGrey_m8Agf {
+  from {
+    border-color: var(--srcery-xgray6);
+  }
+
+  to {
+    border-color: var(--srcery-xgray9);
+  }
+}
+
+.downloads_DownloadsPage_1bq4x {
+  background: none;
+}
+
+.BasicUI .downloadgraph_GraphAndStats_3KDkL {
+  background: var(--srcery-xgray1);
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+  background: var(--srcery-xgray3);
+}
+
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+  border-color: var(--srcery-black);
+}
+
+.downloads_Active_IbePL.gpfocuswithin .downloads_SectionList_OINnO {
+  border-color: var(--srcery-xgray9);
+}

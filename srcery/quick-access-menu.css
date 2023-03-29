@@ -1,0 +1,127 @@
+@keyframes quickaccessmenu_ItemFocusAnim-darkerGrey-nocolor_2YeD3 {
+  from {
+    background: var(--srcery-bright-black);
+  }
+
+  to {
+    background: var(--srcery-xgray3);
+  }
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr-,
+.quickaccessmenu_Title_34nl5,
+.quickaccessmenu_Tab_1S76C {
+  /* background-color: var(--srcery-black); */
+  background: var(--srcery-black);
+}
+
+.quickaccessmenu_Tabs_3Ag1w::after,
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after,
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorThick_28hmy::after {
+  background: var(--srcery-xgray3);
+}
+
+.quickaccessmenu_Title_34nl5 {
+  box-shadow: none;
+}
+
+.quickaccessmenu_Title_34nl5, 
+.TabPanelHeader {
+  color: var(--srcery-bright-white);
+}
+
+.quickaccesscontrols_Text_1hJkB, 
+.gamepaddialog_FieldLabel_3b0U-, 
+.perf_Text_3gY4m,
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.quickaccessmenu_Tab_1S76C svg {
+  color: var(--srcery-white);
+}
+
+.quickaccessmenu_Tab_1S76C svg {
+  color: var(--srcery-bright-black);
+}
+
+.gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu svg {
+  color: var(--srcery-bright-white);
+}
+
+.quickaccesscontrols_BatteryProjectedValue_1mTo6 {
+  color: var(--srcery-bright-white) !important;
+}
+
+.gamepaddialog_Button_1kn70 {
+  background: var(--srcery-xgray3) !important;
+  color: var(--srcery-white) !important;
+}
+
+/* --- */
+/* Highlights */
+/* --- */
+
+/* Bg highlight */
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+  background: var(--srcery-white) !important;
+  /* animation: none; */
+}
+
+/* Label, Description highlight, PerfProfSetting text, BatteryText */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.gamepaddialog_Field_S-_La.gpfocuswithin .perf_Text_3gY4m,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryProjectedValue_1mTo6,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryProjectedLabel_4hS40,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_Icon_21uKi {
+  color: var(--srcery-black) !important;
+}
+
+/* Side highlight */
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+  background: var(--srcery-white);
+}
+
+/* Focused Side highlight */
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
+  background: var(--srcery-bright-white);
+}
+
+/* Side icon highlight */
+.gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu::before {
+  filter: brightness(0);
+}
+
+/* Override small decky buttons */
+.quickaccessmenu_Title_34nl5 .gamepaddialog_Button_1kn70 {
+  color: var(--srcery-bright-white) !important;
+  background: var(--srcery-white) !important;
+}
+
+.quickaccessmenu_Title_34nl5 .gpfocuswithin.gamepaddialog_Button_1kn70 {
+  color: var(--srcery-black) !important;
+  background: var(--srcery-bright-white) !important;
+}
+
+/** Friends list */
+.friendlist {
+  background: var(--srcery-black) !important;
+}
+
+.friendslist_TabBumper_3Jr0A svg path:first-of-type {
+  stroke: var(--srcery-white) !important;
+  fill: none !important;
+}
+
+.friendslist_TabBumper_3Jr0A svg path
+{
+  fill: var(--srcery-white) !important;
+}
+
+.FriendsListTab {
+  color: var(--srcery-bright-black) !important;
+}
+
+.FriendsListTab.Active {
+  color: var(--srcery-bright-white) !important;
+}

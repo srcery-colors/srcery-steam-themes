@@ -1,0 +1,32 @@
+#header::before {
+  background: var(--srcery-black);
+}
+
+#header
+  .header_HeaderDownloadContainer_2ssr3
+  .header_HeaderAppPortraitContainer_1PbL3
+  .header_HeaderDownloadProgressBarBackground_vo3Tt
+  .header_HeaderDownloadProgressBar_AK_Ax {
+  background: var(--srcery-blue);
+}
+
+#Footer {
+  background: var(--srcery-black);
+}
+
+#Footer .footericons_Light_2e0Fq .footericons_Background_I3P4e {
+  color: var(--srcery-bright-white);
+}
+
+#Footer .footer_Item_wesFG .actionbuttonlegenditem_ActionButtonGlyph_3Jfd8 img {
+  filter: var(--srcery-bright-white-filter);
+}
+
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+  backdrop-filter: sepia(100%) blur(4px);
+}
+
+/* Glyphs like L1/R1. Try to color all of them in one shot. */
+.gamepadtabbedpage_Glyphs_N-f57 {
+    filter: var(--srcery-bright-white-filter);
+}

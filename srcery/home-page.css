@@ -1,0 +1,83 @@
+/* Turn the header art to grayscale */
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+  filter: grayscale(1);
+}
+/* Remove hovered game glow */
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0;
+}
+/* Turn backgrounds black */
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background: var(--srcery-black);
+}
+.gamepadhome_TabbedContent_cE1Sa {
+  background: var(--srcery-black) !important;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+  background:
+    -webkit-gradient(
+      linear,
+      left 80%,
+      left 90%,
+      from(rgba(0, 0, 0, 0)),
+      to(var(--srcery-black))
+    ),
+    -webkit-gradient(
+      linear,
+      0% 0%, 100% 0%,
+      color-stop(1%, var(--srcery-black)),
+      color-stop(5%, rgba(0, 0, 0, 0)),
+      color-stop(95%, rgba(0, 0, 0, 0)),
+      color-stop(99%, var(--srcery-black))
+    );
+}
+
+/** What's New */
+
+.gamepadhomewhatsnew_EventInfo_6TGe7 { /* What's new event background */
+  background: var(--srcery-xgray3);
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7:focus { /* What's new event background */
+  background: var(--srcery-xgray6);
+}
+
+/* Recently Updated */
+.recentlycompleted_BottomSection_3LyF6,
+.recentlycompleted_RecentlyCompletedItem_3OC7i {
+  background: var(--srcery-xgray3);
+}
+
+.recentlycompleted_BottomSection_3LyF6:focus,
+.recentlycompleted_RecentlyCompletedItem_3OC7i:focus {
+  background: var(--srcery-xgray6);
+}
+
+/* Trending Among Friends */
+.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
+  background: var(--srcery-xgray3);
+}
+
+.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+  color: var(--srcery-white);
+}
+
+.gamecapsule_GameCapsule_fXdhj:focus .gamecapsule_BottomBar_3-GyQ {
+  background: var(--srcery-xgray6);
+}
+
+/** Friends list (Favorites and In Game) */
+.gamepadhomefriends_FavoriteFriend_3SLpz,
+.gamepadhomefriends_GoToFriends_MVc_6,
+.gamepadhomefriends_InGameGame_KLo2n {
+  background: var(--srcery-xgray3);
+}
+
+.gamepadhomefriends_FavoriteFriend_3SLpz:focus,
+.gamepadhomefriends_GoToFriends_MVc_6:focus,
+.gamepadhomefriends_InGameGame_KLo2n:focus {
+  background: var(--srcery-xgray6);
+}
+
+/** Recommended */

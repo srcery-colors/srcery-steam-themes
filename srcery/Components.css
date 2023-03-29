@@ -1,0 +1,70 @@
+/* --- */
+/* Menu Elements */
+/* --- */
+
+/* Menu Element */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_FieldLabel_3b0U-,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_FieldDescription_2OJfk,
+.gamepadpagedsettings_ContentTransition_NCmol .appproperties_Title_3zuIC,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_FieldLabel_3b0U-,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_FieldDescription_2OJfk,
+.controllerconfigurator_BottomSection_3RsRf .appproperties_Title_3zuIC
+{
+  color: var(--srcery-white);
+}
+
+/* Selected Menu Element */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin 
+{
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+  animation-name: settingsTabFocusAnimation;
+}
+
+/* Selected menu Element Text */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U- {
+  color: var(--srcery-black);
+}
+
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
+  color: var(--srcery-black);
+}
+
+/* Button */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .DialogCheckbox_Container,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.controllerconfigurator_BottomSection_3RsRf .DialogCheckbox_Container
+{
+  background: var(--srcery-xgray3);
+  color: var(--srcery-white);
+}
+
+/* Highlighted Button */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled
+{
+  background: var(--srcery-xgray6);
+  color: var(--srcery-bright-white);
+}
+
+.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW,
+.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW {
+  color: var(--srcery-white);
+}
+
+.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
+  color: var(--srcery-bright-white);
+}

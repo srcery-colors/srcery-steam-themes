@@ -1,0 +1,49 @@
+.gamepadtabbedpage_Tab_3eEbS {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* Clicked but not released */
+.gamepadtabbedpage_Tab_3eEbS:hover {
+  background: var(--srcery-xgray1);
+}
+
+/* Hover Highlighted Text */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus .gamepadtabbedpage_TabTitle_1nq0i,
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus .gamepadtabbedpage_TabCount_1ui4I,
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus .gamepadtabbedpage_TabIcon_3Ebb3 {
+  color: var(--srcery-bright-white);
+}
+
+/* Hover Highlighted Bg */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus {
+  background: var(--srcery-xgray9);
+}
+
+/* Highlighted Bg */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+  background: var(--srcery-xgray3);
+}
+
+/* Text */
+.gamepadtabbedpage_TabTitle_1nq0i,
+.gamepadtabbedpage_TabCount_1ui4I,
+.gamepadtabbedpage_TabIcon_3Ebb3 {
+  color: var(--srcery-white);
+}
+
+/* Friends playing pills label */
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ {
+  /* border-radius: unset; */
+}
+
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-green);
+}
+
+/* todo what is this? */
+.appdetailsfriendssection_FriendsSectionSubHeading_30EfX, /* x Friends have played previously */
+.appdetailsfriendssection_AvatarAndLabel_1GCZA .appdetailsfriendssection_PlaytimeStatus_1xGH4 { /* x Hrs played recently */
+  color: var(--srcery-bright-white);
+}

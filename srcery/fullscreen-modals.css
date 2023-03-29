@@ -1,0 +1,224 @@
+.gamepadcontextmenu_BasicContextMenuModal_2xS2_ {
+  justify-content: flex-start;
+}
+
+/* Background (with blur) */
+.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
+  background: linear-gradient(
+    90deg,
+    var(--srcery-black) 0%,
+    var(--srcery-black) 20%,
+    transparent 100%
+  );
+  /* background: var(--srcery-black); */
+  /* opacity: 0.85; */
+  backdrop-filter: sepia(100%) blur(4px);
+}
+
+/* Header */
+.basiccontextmenu_BasicContextMenuHeader_2nHKK,
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+  margin: 0;
+  padding: 10px;
+  display: inherit;
+  font-weight: 900;
+}
+
+/* Standard text */
+.basiccontextmenu_contextMenuItem_3PqLg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.contextMenuItem,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
+  background: transparent;
+  color: var(--srcery-white);
+  justify-content: center;
+  justify-content: left; /* Allign menu to left */
+  border-radius: 2px;
+  transition: padding-left ease-out 200ms;
+}
+
+/* Selected item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D,
+.contextMenuItem.gpfocus,
+.contextMenuItem.gpfocus.gamepadcontextmenu_Destructive_3aIFv {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+  /* TODO this animation doesn't seem to be working. */
+  animation-name: settingsTabFocusAnimation;
+  padding-left: 1.5rem;
+}
+
+/* Item highlighted when in sub menu */
+.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.Panel.Focusable {
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white);
+  padding-left: 1.5rem;
+}
+
+/* Text Title/Description */
+.BasicUIContextMenu .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .dropdownlabel_DropDownLabelDescription_1JPcb {
+  color: var(--srcery-bright-white);
+  text-transform: uppercase;
+}
+
+/* Highlighted Text Title/Description */
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb {
+  color: var(--srcery-black);
+}
+
+/* Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN .SVGIcon_DownArrowContextMenu {
+  fill: var(--srcery-bright-white);
+}
+
+/* Highlighted Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic.gpfocus .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gpfocus .SVGIcon_DownArrowContextMenu {
+  fill: var(--srcery-black);
+}
+
+/* Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
+  border-left: solid 5px;
+  border-right: solid 5px;
+}
+
+/* Highlighted Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET.gpfocus {
+  border-left: none;
+  border-right: none;
+}
+
+/* Submenu allign to top */
+.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child),
+.gamepadcontextmenu_contextMenuContents_sIgB-:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child) {
+  align-self: end;
+  margin-left: 10%;
+}
+
+/* Allign menu to left */
+.basiccontextmenu_BasicContextMenuContainer_2dUDj,
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6 {
+  justify-content: left;
+  padding-left: 10px;
+}
+
+/* Remove huge chunk of space */
+.basiccontextmenu_BasicContextMenuContainer_2dUDj::before, 
+.basiccontextmenu_BasicContextMenuContainer_2dUDj::after,
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6::before, 
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6::after {
+  flex-grow: 0;
+}
+
+/* --- */
+/* Modal Menu */
+/* --- */
+
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk.GenericConfirmDialog {
+  background: transparent;
+  border-color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout {
+  display: block;
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton {
+  margin: auto;
+  /* border-radius: 0 !important; */
+  background: transparent;
+  color: var(--srcery-bright-white);
+  text-transform: uppercase;
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton.gpfocus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .GenericConfirmDialog .DialogHeader,
+.ModalOverlayContent .GenericConfirmDialog .DialogBodyText,
+.ModalOverlayContent .mediapage_Title_3QFEe {
+  color: var(--srcery-bright-white);
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+}
+
+.ModalOverlayContent .GenericConfirmDialog .DialogBodyText {
+  font-size: 12px;
+}
+
+/* Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+  background: transparent;
+  color: var(--srcery-bright-white);
+  /* border-radius: 0; */
+  text-transform: uppercase;
+}
+
+/* Highlighted Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* Primary danger button */
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary {
+  background: var(--srcery-red);
+  color: var(--srcery-black);
+}
+
+/* Secondary return-to-safety button */
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Secondary,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Secondary {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+}
+
+/* Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La,
+.ModalOverlayContent .gamepaddialog_FieldLabel_3b0U-,
+.ModalOverlayContent .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-bright-white);
+  text-transform: uppercase;
+}
+
+/* Selected Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+  animation: none;
+}
+
+/* Selected menu Element Text */
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-black);
+}
+
+.gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-bright-white);
+}
+
+.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-black);
+}
