@@ -1,6 +1,12 @@
 # srcery-steam-deck
 Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew
 
+## Uploading a New Version
+
+1. Head to https://deckthemes.com/submit
+2. Fill out the appropriate information.
+3. Use [this image](https://github.com/srcery-colors/srcery-assets/blob/master/title.png) as the image.
+
 ## Conventions
 
 | Element | Foreground | Background |
@@ -11,3 +17,4 @@ Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew
 ## TODO
 
 - [ ] Screenshots
+- [ ] Notifications
