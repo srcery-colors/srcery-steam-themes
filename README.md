@@ -1,4 +1,4 @@
-# srcery-steam-deck
+# Steam Deck Theme
 Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew
 
 ## Uploading a New Version
