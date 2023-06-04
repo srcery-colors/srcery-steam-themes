@@ -123,6 +123,11 @@
 /* Modal Menu */
 /* --- */
 
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
+  background: var(--srcery-black) !important;
+  border-color: var(--srcery-bright-black);
+}
+
 .ModalOverlayContent .gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk.GenericConfirmDialog {
   background: transparent;
   border-color: var(--srcery-bright-white);
@@ -221,4 +226,24 @@
 
 .gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_LabelFieldValue_5Mylh {
   color: var(--srcery-black);
+}
+
+/** Deck Verified modal */
+
+.deckverified_CompatibilityDetailsContainer_1eAfS,
+.deckverified_CompatibilityDetailRatingSummary_1dRcO,
+.deckverified_CompatibilityDetailsRow_i-kKr {
+  color: var(--srcery-white);
+}
+
+.deckverified_CompatibilityDetailsNoteRow_2Bejw {
+  color: var(--srcery-xgray9);
+}
+
+.deckverified_DialogHeader_1L5Or {
+  align-items: center;
+}
+
+.deckverified_DialogTitle_2FOcP {
+  color: var(--srcery-bright-white);
 }

@@ -28,11 +28,6 @@
   background: var(--srcery-xgray3);
 }
 
-.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
-  background: var(--srcery-black);
-  border-color: var(--srcery-bright-black);
-}
-
 .ChatHistorySelector {
   background: transparent;
 }

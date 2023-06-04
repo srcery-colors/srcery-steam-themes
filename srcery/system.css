@@ -56,3 +56,15 @@
 .gamepadtabbedpage_Glyphs_N-f57 {
     filter: var(--srcery-bright-white-filter);
 }
+
+.shared_svg_library_SteamDeckCompatVerified_3mvZq {
+  color: var(--srcery-green);
+}
+
+.shared_svg_library_SteamDeckCompatPlayable_S7BDm {
+  color: var(--srcery-yellow);
+}
+
+.shared_svg_library_SteamDeckCompatUnsupported_1SeOP,.shared_svg_library_SteamDeckCompatUnknown_15dEs {
+    color: var(--srcery-bright-black)
+}

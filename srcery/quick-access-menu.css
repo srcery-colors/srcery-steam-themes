@@ -24,8 +24,8 @@
   box-shadow: none;
 }
 
-.quickaccessmenu_Title_34nl5, 
-.TabPanelHeader {
+.quickaccessmenu_Menu_1gJzx .quickaccessmenu_Title_34nl5, 
+#QuickAccess-Menu .quickaccessmenu_Menu_1gJzx .FriendsListSteamDeckTopSection .TabPanelHeader {
   color: var(--srcery-bright-white);
 }
 
@@ -46,12 +46,17 @@
 }
 
 .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
-  color: var(--srcery-bright-white) !important;
+  color: var(--srcery-bright-white);
 }
 
-.gamepaddialog_Button_1kn70 {
-  background: var(--srcery-xgray3) !important;
-  color: var(--srcery-white) !important;
+.quickaccessmenu_Menu_1gJzx button.gamepaddialog_Button_1kn70.DialogButton {
+  background: var(--srcery-xgray3);
+  color: var(--srcery-white);
+}
+
+.quickaccessmenu_Menu_1gJzx button.gpfocuswithin.gamepaddialog_Button_1kn70.DialogButton {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
 }
 
 /* --- */
@@ -89,17 +94,6 @@
 /* Side icon highlight */
 .gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu::before {
   filter: brightness(0);
-}
-
-/* Override small decky buttons */
-.quickaccessmenu_Title_34nl5 .gamepaddialog_Button_1kn70 {
-  color: var(--srcery-bright-white) !important;
-  background: var(--srcery-white) !important;
-}
-
-.quickaccessmenu_Title_34nl5 .gpfocuswithin.gamepaddialog_Button_1kn70 {
-  color: var(--srcery-black) !important;
-  background: var(--srcery-bright-white) !important;
 }
 
 /** Friends list */
