@@ -1,11 +1,5 @@
-.header_HeaderItem_2HnVd,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
   color: var(--srcery-bright-white);
-}
-
-.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
-  color: var(--srcery-black);
-  background: var(--srcery-bright-white);
 }
 
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
@@ -34,7 +28,7 @@
   background: var(--srcery-black) !important;
 }
 
-/* .gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */ */
+/* .gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */
 .recentlycompleted_BottomSection_3LyF6,
 .recentlycompleted_RecentlyCompletedItem_3OC7i,
 /* .gamepadhomefriends_FavoriteFriend_3SLpz, .gamepadhomefriends_GoToFriends_MVc_6, */

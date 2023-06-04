@@ -10,6 +10,32 @@
   background: var(--srcery-blue);
 }
 
+#header .header_HeaderItem_2HnVd,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
+  color: var(--srcery-white);
+}
+
+#header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
+  fill: var(--srcery-yellow);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT.gpfocus.gpfocuswithin svg path:not(:first-child) {
+  fill: var(--srcery-orange);
+}
+
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:first-child {
+  fill: var(--srcery-green);
+}
+
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
+  fill: var(--srcery-black);
+}
+
 #Footer {
   background: var(--srcery-black);
 }

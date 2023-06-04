@@ -1,7 +1,7 @@
 {
   "name": "Srcery",
   "description": "A color scheme with clearly defined constrasting colors and a slightly earthy tone. See more at https://srcery.sh",
-  "author": "milogert, Srcery Colors",
+  "author": "milogert",
   "version": "v0.1",
   "manifest_version": 4,
   "target": "System-Wide",
