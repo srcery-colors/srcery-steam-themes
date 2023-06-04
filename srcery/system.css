@@ -10,6 +10,33 @@
   background: var(--srcery-blue);
 }
 
+#header .header_HeaderItem_2HnVd,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83 {
+  color: var(--srcery-white);
+}
+
+#header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
+  fill: var(--srcery-yellow);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT.gpfocus.gpfocuswithin svg path:not(:first-child) {
+  fill: var(--srcery-orange);
+}
+
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:first-child {
+  fill: var(--srcery-green);
+}
+
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
+  fill: var(--srcery-black);
+}
+
 #Footer {
   background: var(--srcery-black);
 }
@@ -29,4 +56,16 @@
 /* Glyphs like L1/R1. Try to color all of them in one shot. */
 .gamepadtabbedpage_Glyphs_N-f57 {
     filter: var(--srcery-bright-white-filter);
+}
+
+.shared_svg_library_SteamDeckCompatVerified_3mvZq {
+  color: var(--srcery-green);
+}
+
+.shared_svg_library_SteamDeckCompatPlayable_S7BDm {
+  color: var(--srcery-yellow);
+}
+
+.shared_svg_library_SteamDeckCompatUnsupported_1SeOP,.shared_svg_library_SteamDeckCompatUnknown_15dEs {
+    color: var(--srcery-bright-black)
 }

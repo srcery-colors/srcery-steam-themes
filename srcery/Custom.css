@@ -1,13 +1,3 @@
-.header_HeaderItem_2HnVd,
-.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
-  color: var(--srcery-bright-white);
-}
-
-.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
-  color: var(--srcery-black);
-  background: var(--srcery-bright-white);
-}
-
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
   background: var(--srcery-blue);
 }
@@ -34,7 +24,7 @@
   background: var(--srcery-black) !important;
 }
 
-/* .gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */ */
+/* .gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */
 .recentlycompleted_BottomSection_3LyF6,
 .recentlycompleted_RecentlyCompletedItem_3OC7i,
 /* .gamepadhomefriends_FavoriteFriend_3SLpz, .gamepadhomefriends_GoToFriends_MVc_6, */
@@ -42,13 +32,12 @@
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq,
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh,
 .comment_thread_ActivityCommentThread_39nna,
-.BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI, /* Game Activity Played Previously */
 .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2, /* Game Activity Post Activity Message */
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq:focus,
 .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus, /* Focused Game Activity Post Activity Message */
-.BasicUI .appdetailssection_Highlight_38t1m { /* You've unlocked 1/9 (11%)  */
 /* .gamepadhomefriends_InGameGame_KLo2n:focus, */
 /* .gamepadhomefriends_InGameGame_KLo2n { */
+{
   background: var(--srcery-white);
 }
 

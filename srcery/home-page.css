@@ -1,3 +1,15 @@
+.BasicUI .basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+  background: transparent;
+}
+
+/* .BasicUI .sharedappdetailsheader_TopCapsule_2meE3 { */
+/*   --srcery-header-height: 49vw; */
+/* } */
+/**/
+/* .sharedappdetailsheader_TopCapsule_2meE3 { */
+/*     height: var(--srcery-header-height); */
+/* } */
+
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
@@ -81,3 +93,79 @@
 }
 
 /** Recommended */
+
+/** Your Stuff */
+.BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+  background: var(--srcery-xgray6);
+}
+
+.BasicUI .appdetailssection_Highlight_38t1m { /* You've unlocked 1/9 (11%)  */
+  background: var(--srcery-xgray3);
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:not(.gpfocus) {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY.gpfocus.gpfocuswithin {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+/** Community */
+.BasicUI .appdetailscommunityfeed_CommunityItem_3QS6O {
+  background: var(--srcery-xgray3);
+}
+
+/** Game Info */
+.BasicUI .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1,
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Association_-9icu .appdetailsgameinfopanel_Name_2j8Xh,
+.appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Date_izVv8 {
+  color: var(--srcery-bright-white);
+}
+
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2,
+.appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
+  color: var(--srcery-white);
+}
+
+.appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Icon_2RwHE {
+  filter: var(--srcery-bright-white-filter);
+  opacity: 1;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Label_1VoVz {
+  color: var(--srcery-white);
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+  color: var(--srcery-bright-white);
+  background: var(--srcery-xgray6);
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA:focus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+  background: var(--srcery-xgray3);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w.gpfocus.gpfocuswithin {
+  background: var(--srcery-bright-white);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+  color: var(--srcery-white);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w.gpfocus.gpfocuswithin .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+  color: var(--srcery-black);
+}

@@ -11,7 +11,6 @@
 .quickaccessmenu_QuickAccessMenu_V0cr-,
 .quickaccessmenu_Title_34nl5,
 .quickaccessmenu_Tab_1S76C {
-  /* background-color: var(--srcery-black); */
   background: var(--srcery-black);
 }
 
@@ -25,8 +24,8 @@
   box-shadow: none;
 }
 
-.quickaccessmenu_Title_34nl5, 
-.TabPanelHeader {
+.quickaccessmenu_Menu_1gJzx .quickaccessmenu_Title_34nl5, 
+#QuickAccess-Menu .quickaccessmenu_Menu_1gJzx .FriendsListSteamDeckTopSection .TabPanelHeader {
   color: var(--srcery-bright-white);
 }
 
@@ -47,12 +46,17 @@
 }
 
 .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
-  color: var(--srcery-bright-white) !important;
+  color: var(--srcery-bright-white);
 }
 
-.gamepaddialog_Button_1kn70 {
-  background: var(--srcery-xgray3) !important;
-  color: var(--srcery-white) !important;
+.quickaccessmenu_Menu_1gJzx button.gamepaddialog_Button_1kn70.DialogButton {
+  background: var(--srcery-xgray3);
+  color: var(--srcery-white);
+}
+
+.quickaccessmenu_Menu_1gJzx button.gpfocuswithin.gamepaddialog_Button_1kn70.DialogButton {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
 }
 
 /* --- */
@@ -92,17 +96,6 @@
   filter: brightness(0);
 }
 
-/* Override small decky buttons */
-.quickaccessmenu_Title_34nl5 .gamepaddialog_Button_1kn70 {
-  color: var(--srcery-bright-white) !important;
-  background: var(--srcery-white) !important;
-}
-
-.quickaccessmenu_Title_34nl5 .gpfocuswithin.gamepaddialog_Button_1kn70 {
-  color: var(--srcery-black) !important;
-  background: var(--srcery-bright-white) !important;
-}
-
 /** Friends list */
 .friendlist {
   background: var(--srcery-black) !important;
@@ -124,4 +117,18 @@
 
 .FriendsListTab.Active {
   color: var(--srcery-bright-white) !important;
+}
+
+/** Performance */
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child {
+  fill: var(--srcery-white);
+}
+
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
+  fill: var(--srcery-green);
+}
+
+.gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child,
+.gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child {
+  fill: var(--srcery-black);
 }
