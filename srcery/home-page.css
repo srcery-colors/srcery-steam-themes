@@ -2,6 +2,14 @@
   background: transparent;
 }
 
+/* .BasicUI .sharedappdetailsheader_TopCapsule_2meE3 { */
+/*   --srcery-header-height: 49vw; */
+/* } */
+/**/
+/* .sharedappdetailsheader_TopCapsule_2meE3 { */
+/*     height: var(--srcery-header-height); */
+/* } */
+
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);

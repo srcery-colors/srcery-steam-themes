@@ -13,7 +13,8 @@
     "toggle-switch.css": ["All"],
     "pill-menus.css": ["SP"],
     "friends-list.css": ["SP"],
-    "downloads.css": ["SP"]
+    "downloads.css": ["SP"],
+    "library.css": ["SP"]
   },
  "dependencies": {},
   "patches": {
@@ -77,6 +78,13 @@
       "type": "checkbox",
       "values": {
         "Yes": { "Custom.css": ["SP"] },
+        "No": {}
+      }
+    },
+    "ProtonDB Button": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "proton-db-button.css": ["SP"] },
         "No": {}
       }
     }

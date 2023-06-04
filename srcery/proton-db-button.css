@@ -1,0 +1,29 @@
+.protondb-decky-indicator-platinum {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+  outline-color: var(--srcery-bright-white);
+}
+
+.protondb-decky-indicator-gold {
+  color: var(--srcery-black);
+  background: var(--srcery-yellow);
+  outline-color: var(--srcery-yellow);
+}
+
+.protondb-decky-indicator-silver {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray6);
+  outline-color: var(--srcery-xgray6);
+}
+
+.protondb-decky-indicator-pending {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray2);
+  outline-color: var(--srcery-xgray2);
+}
+
+.protondb-decky-indicator-borked {
+  color: var(--srcery-black);
+  background: var(--srcery-red);
+  outline-color: var(--srcery-red);
+}

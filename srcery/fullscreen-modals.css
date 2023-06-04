@@ -29,7 +29,7 @@
 /* Standard text */
 .basiccontextmenu_contextMenuItem_3PqLg,
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
-.contextMenuItem,
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem,
 .contextMenuItem.gamepadcontextmenu_Selected_1PnET {
   background: transparent;
   color: var(--srcery-white);
@@ -37,18 +37,24 @@
   justify-content: left; /* Allign menu to left */
   border-radius: 2px;
   transition: padding-left ease-out 200ms;
+  margin: 2px 0;
 }
 
 /* Selected item */
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg,
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D,
-.contextMenuItem.gpfocus,
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.gpfocus,
 .contextMenuItem.gpfocus.gamepadcontextmenu_Destructive_3aIFv {
   background: var(--srcery-white);
   color: var(--srcery-black);
   /* TODO this animation doesn't seem to be working. */
   animation-name: settingsTabFocusAnimation;
   padding-left: 1.5rem;
+}
+
+/* Selected item (Play button only) */
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.Play.gpfocus {
+  background: var(--srcery-green);
 }
 
 /* Item highlighted when in sub menu */
@@ -86,15 +92,13 @@
 /* Selected Item */
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
 .contextMenuItem.gamepadcontextmenu_Selected_1PnET {
-  border-left: solid 5px;
-  border-right: solid 5px;
+  background: var(--srcery-xgray3);
 }
 
 /* Highlighted Selected Item */
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg,
 .contextMenuItem.gamepadcontextmenu_Selected_1PnET.gpfocus {
-  border-left: none;
-  border-right: none;
+  background: var(--srcery-white);
 }
 
 /* Submenu allign to top */
