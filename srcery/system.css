@@ -29,10 +29,6 @@
   fill: var(--srcery-orange);
 }
 
-#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:first-child {
-  fill: var(--srcery-green);
-}
-
 #header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
   fill: var(--srcery-black);
 }

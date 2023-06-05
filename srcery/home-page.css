@@ -94,6 +94,33 @@
 
 /** Recommended */
 
+/** Activity */
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+  background: var(--srcery-xgray4);
+}
+
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2,
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2::placeholder {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.BasicUI .appactivityday_Event_UVeN0,
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+  background: var(--srcery-xgray6);
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
+.comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+  background: var(--srcery-xgray1);
+}
+
 /** Your Stuff */
 .BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
   background: var(--srcery-xgray6);

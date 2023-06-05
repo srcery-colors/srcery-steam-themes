@@ -8,8 +8,8 @@
 /* Dropdown, Button highlight */
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddropdown_DropDownControlButton_28bny,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_Button_1kn70 {
-  background: var(--srcery-xgray6) !important;
-  color: var(--srcery-bright-white) !important;
+  background: var(--srcery-xgray6);
+  color: var(--srcery-bright-white);
 }
 
 .gamepaddialog_Toggle_24G4g.gpfocus:after {

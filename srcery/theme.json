@@ -14,21 +14,30 @@
     "pill-menus.css": ["SP"],
     "friends-list.css": ["SP"],
     "downloads.css": ["SP"],
-    "library.css": ["SP"]
+    "library.css": ["SP"],
+    "Custom.css": ["SP"],
+    "account-page.css": ["SP"]
   },
  "dependencies": {},
   "patches": {
-    "Fullscreen Modals": {
-      "type": "checkbox",
-      "values": {
-        "Yes": { "fullscreen-modals.css": ["SP"] },
-        "No": {}
-      }
-    },
     "Font": {
       "type": "checkbox",
       "values": {
         "Yes": { "font.css": ["All"] },
+        "No": {}
+      }
+    },
+    "Keyboard": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "keyboard.css": ["All"] },
+        "No": {}
+      }
+    },
+    "Fullscreen Modals": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "fullscreen-modals.css": ["SP"] },
         "No": {}
       }
     },
@@ -71,13 +80,6 @@
       "type": "checkbox",
       "values": {
         "Yes": { "in-game-overlay.css": ["MainMenu"] },
-        "No": {}
-      }
-    },
-    "Patches": {
-      "type": "checkbox",
-      "values": {
-        "Yes": { "Custom.css": ["SP"] },
         "No": {}
       }
     },

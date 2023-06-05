@@ -58,13 +58,3 @@
   background: var(--srcery-xgray6);
   color: var(--srcery-bright-white);
 }
-
-.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW,
-.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW {
-  color: var(--srcery-white);
-}
-
-.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
-.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
-  color: var(--srcery-bright-white);
-}

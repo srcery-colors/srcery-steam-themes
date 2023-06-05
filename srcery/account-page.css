@@ -1,0 +1,52 @@
+@keyframes gamepaddialog_ItemFocusAnim-darkGrey_2zfa- {
+  from {
+    background: var(--srcery-xgray3);
+    color: var(--srcery-white);
+  }
+
+  to {
+    background: var(--srcery-xgray6);
+    color: var(--srcery-black);
+  }
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La button.DialogButton.gamepaddialog_Button_1kn70 {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.DialogButton.gamepaddialog_Button_1kn70:not(.accountpanel_FatButton_TEWms) {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La button.accountpanel_FatButton_TEWms svg,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La button.DialogButton.gamepaddialog_Button_1kn70.accountpanel_FatButton_TEWms,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms svg,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.DialogButton.gamepaddialog_Button_1kn70.accountpanel_FatButton_TEWms {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
+  color: var(--srcery-bright-black);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k svg,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Label_3wadw,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Details_3Wb9y,
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gpfocuswithin button.DialogButton.gamepaddialog_Button_1kn70.accountpanel_FatButton_TEWms.gpfocus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6 .gamepaddialog_FieldLabel_3b0U- {
+  color: var(--srcery-bright-white);
+}
+
+.accountpanel_AccountPanelPage_2KuyU .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6 .gamepaddialog_FieldDescription_2OJfk {
+  color: var(--srcery-white);
+}

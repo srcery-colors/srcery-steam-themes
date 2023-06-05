@@ -46,6 +46,18 @@
   color: var(--srcery-white) !important;
 }
 
+/** System */
+.updaterfield_PatchNotes_Evi7g {
+  background: var(--srcery-xgray1);
+}
+
+.basicpartnereventspage_BasicPartnerEvent_2yuwU {
+  background: var(--srcery-xgray1);
+}
+
+.basicpartnereventspage_BasicPartnerEvent_2yuwU > img {
+  display: none;
+}
 
 /** Storage pane */
 .contentmanagement_ContentManagement_3wk64 {
