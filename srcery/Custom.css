@@ -24,8 +24,6 @@
   background: var(--srcery-black) !important;
 }
 
-.recentlycompleted_BottomSection_3LyF6,
-.recentlycompleted_RecentlyCompletedItem_3OC7i,
 .comment_thread_ActivityCommentThread_39nna,
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq:focus {
   background: var(--srcery-white);
@@ -58,9 +56,6 @@
 .appdetailssectionheader_LabelText_3i0ko,
 .gamepadhomerecommended_PlayNextCarouselTitle_2r7cQ,
 .gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW,
-.recentlycompleted_GameName_1EIQL,
-.recentlycompleted_Bytes_TH3M8,
-.recentlycompleted_DownloadInfo_1wLpm,
 .recentlycompleted_PatchNotes_2_b6L,
 .personanameandstatus_playerName_r62qz,
 .personanameandstatus_gameName_2wpap,
@@ -79,16 +74,6 @@
 
 .personanameandstatus_gameName_2wpap {
   font-size: 10px;
-}
-
-.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
-  background: var(--srcery-bright-white);
-}
-
-.salepreviewwidgets_StoreSalePriceBox_Wh0L8,
-.BasicUI .salepreviewwidgets_StoreOriginalPrice_1EKGZ, 
-.BasicUI .salepreviewwidgets_StoreSaleDiscountedPriceCtn_3GLeQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
-  color: var(--srcery-black);
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe,

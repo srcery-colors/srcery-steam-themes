@@ -65,3 +65,13 @@
 .shared_svg_library_SteamDeckCompatUnsupported_1SeOP,.shared_svg_library_SteamDeckCompatUnknown_15dEs {
     color: var(--srcery-bright-black)
 }
+
+.offline .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .offline .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-xgray9);
+}
+
+.online .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .online .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-blue);
+}
