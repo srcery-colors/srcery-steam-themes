@@ -75,3 +75,15 @@
 .GamepadMode .online .steamavatar_avatarStatus_1yIzy {
   background: var(--srcery-blue);
 }
+
+.audio_VolumePopin_2iUUM {
+  background: var(--srcery-xgray3);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD {
+  background: var(--srcery-black);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD::before {
+  background: var(--srcery-blue);
+}
