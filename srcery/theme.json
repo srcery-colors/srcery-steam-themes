@@ -2,7 +2,7 @@
   "name": "Srcery",
   "description": "A color scheme with clearly defined constrasting colors and a slightly earthy tone. See more at https://srcery.sh",
   "author": "milogert",
-  "version": "v0.1",
+  "version": "v0.2",
   "manifest_version": 4,
   "target": "System-Wide",
   "inject": {
@@ -18,6 +18,13 @@
   },
  "dependencies": {},
   "patches": {
+    "Keyboard": {
+      "type": "checkbox",
+      "values": {
+        "Yes": { "keyboard.css": ["All"] },
+        "No": {}
+      }
+    },
     "Fullscreen Modals": {
       "type": "checkbox",
       "values": {
