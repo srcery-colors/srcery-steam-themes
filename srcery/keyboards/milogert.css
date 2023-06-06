@@ -12,11 +12,24 @@
   background: var(--srcery-hard-black);
 }
 
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN {
+  filter: brightness(1.5);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
+  background: var(--srcery-xgray6);
+  color: var(--srcery-white);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7.virtualkeyboard_Focused_21EoN.gpfocus.gpfocuswithin {
+  background: var(--srcery-xgray8);
+  color: var(--srcery-bright-white);
+}
+
 .virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
   background: var(--srcery-xgray1);
   color: var(--srcery-bright-white);
 }
-
 
 .virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Backspace,
 .virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Enter,
