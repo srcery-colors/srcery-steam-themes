@@ -2,45 +2,41 @@
   background: transparent;
 }
 
-/* .BasicUI .sharedappdetailsheader_TopCapsule_2meE3 { */
-/*   --srcery-header-height: 49vw; */
-/* } */
-/**/
-/* .sharedappdetailsheader_TopCapsule_2meE3 { */
-/*     height: var(--srcery-header-height); */
-/* } */
-
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
 }
+
 /* Remove hovered game glow */
 .gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
 :hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
   opacity: 0;
 }
+
 /* Turn backgrounds black */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
   background: var(--srcery-black);
 }
+
 .gamepadhome_TabbedContent_cE1Sa {
   background: var(--srcery-black) !important;
 }
+
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
   background:
     -webkit-gradient(
       linear,
       left 80%,
       left 90%,
-      from(rgba(0, 0, 0, 0)),
+      from(rgb(0 0 0 / 0%)),
       to(var(--srcery-black))
     ),
     -webkit-gradient(
       linear,
       0% 0%, 100% 0%,
       color-stop(1%, var(--srcery-black)),
-      color-stop(5%, rgba(0, 0, 0, 0)),
-      color-stop(95%, rgba(0, 0, 0, 0)),
+      color-stop(5%, rgb(0 0 0 / 0%)),
+      color-stop(95%, rgb(0 0 0 / 0%)),
       color-stop(99%, var(--srcery-black))
     );
 }
@@ -56,27 +52,71 @@
 }
 
 /* Recently Updated */
-.recentlycompleted_BottomSection_3LyF6,
-.recentlycompleted_RecentlyCompletedItem_3OC7i {
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_BottomSection_3LyF6,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_DownloadInfo_1wLpm,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_Bytes_TH3M8 {
   background: var(--srcery-xgray3);
+  color: var(--srcery-white);
 }
 
-.recentlycompleted_BottomSection_3LyF6:focus,
-.recentlycompleted_RecentlyCompletedItem_3OC7i:focus {
-  background: var(--srcery-xgray6);
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin .recentlycompleted_BottomSection_3LyF6 {
+  background: var(--srcery-xgray3);
+  color: var(--srcery-white);
+}
+
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_DownloadInfo_1wLpm {
+  color: var(--srcery-xgray9);
+}
+
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_Bytes_TH3M8 {
+  color: var(--srcery-bright-white);
+}
+
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin .recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin .recentlycompleted_BottomSection_3LyF6,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_DownloadInfo_1wLpm,
+.BasicUI .recentlycompleted_RecentlyCompletedItem_3OC7i.gpfocus.gpfocuswithin .recentlycompleted_BottomSection_3LyF6 .recentlycompleted_Bytes_TH3M8 {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
 }
 
 /* Trending Among Friends */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   background: var(--srcery-xgray3);
-}
-
-.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
   color: var(--srcery-white);
 }
 
 .gamecapsule_GameCapsule_fXdhj:focus .gamecapsule_BottomBar_3-GyQ {
-  background: var(--srcery-xgray6);
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+  color: var(--srcery-green);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj .salepreviewwidgets_StoreOriginalPrice_1EKGZ {
+  color: var(--srcery-xgray9);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+  color: var(--srcery-white);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj.gpfocus.gpfocuswithin .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+  color: var(--srcery-green);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj.gpfocus.gpfocuswithin .salepreviewwidgets_StoreOriginalPrice_1EKGZ {
+  color: var(--srcery-xgray3);
+}
+
+.BasicUI .gamecapsule_GameCapsule_fXdhj.gpfocus.gpfocuswithin .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+  color: var(--srcery-black);
 }
 
 /** Friends list (Favorites and In Game) */
@@ -93,6 +133,41 @@
 }
 
 /** Recommended */
+.BasicUI .discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 .discoveryqueuewidget_WidgetHeaderCtn_3u5R_ {
+  background: linear-gradient(90deg, var(--srcery-blue) 0%, var(--srcery-bright-blue) 75%, transparent 100%);
+  color: var(--srcery-xgray2);
+}
+
+.BasicUI .discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 .discoveryqueuewidget_WidgetHeaderCtn_3u5R_ .discoveryqueuewidget_WidgetHeaderText_uUpem {
+  color: var(--srcery-black);
+}
+
+/** Activity */
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+  background: var(--srcery-xgray4);
+}
+
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2,
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2::placeholder {
+  color: var(--srcery-white);
+  background: var(--srcery-xgray3);
+}
+
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.BasicUI .appactivityday_Event_UVeN0,
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+  background: var(--srcery-xgray6);
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn,
+.comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc,
+.comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+  background: var(--srcery-xgray1);
+}
 
 /** Your Stuff */
 .BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {

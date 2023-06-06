@@ -1,0 +1,84 @@
+/* Reset the font to be the normal one for all keyboards. */
+.virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O * {
+  font-family: "Motiva Sans",Arial,Helvetica,sans-serif !important;
+}
+
+/* Set the font to the srcery font for just the Default theme. */
+.virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O .DefaultTheme * {
+  font-family: srcery-font, monospace !important;
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme {
+  background: var(--srcery-hard-black);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN {
+  filter: brightness(1.5);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7 {
+  background: var(--srcery-xgray6);
+  color: var(--srcery-white);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardExtendedKey_394j7.virtualkeyboard_Focused_21EoN.gpfocus.gpfocuswithin {
+  background: var(--srcery-xgray8);
+  color: var(--srcery-bright-white);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX {
+  background: var(--srcery-xgray1);
+  color: var(--srcery-bright-white);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Backspace,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Enter,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Shift,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Tab,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_CapsLock,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_KeyboardSpacebar_ia41Q
+{
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white)
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_VKClose,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_VKPaste,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_ArrowLeft,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_ArrowRight
+{
+  background: var(--srcery-xgray3);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX .virtualkeyboard_ShiftedLabel_3FZuk {
+  color: var(--srcery-xgray9);
+  opacity: 1;
+} 
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Backspace {
+  background: var(--srcery-red);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Shift.virtualkeyboard_ToggleOneShot_2Vf7I {
+  background: var(--srcery-green);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_CapsLock.virtualkeyboard_ToggleOn_3Qrs-,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_Shift.virtualkeyboard_ToggleOn_3Qrs- {
+  background: var(--srcery-blue);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.KeyTheme_SwitchKeys_Steam {
+  background: var(--srcery-orange);
+  color: var(--srcery-xgray1);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj .virtualkeyboard_CategoryScrollLeft_3kicO,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardEmojiHeader_Qihxj .virtualkeyboard_CategoryScrollRight_2bGVJ,
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX .virtualkeyboard_ActionButtonGlyph_3VtXf img {
+  filter: var(--srcery-bright-white-filter);
+}
+
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme .virtualkeyboard_KeyboardSteamItemsNotLoggedIn_3bsr5 {
+  color: var(--srcery-xgray9);
+}

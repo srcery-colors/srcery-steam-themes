@@ -45,7 +45,7 @@
   color: var(--srcery-bright-white);
 }
 
-.quickaccesscontrols_BatteryProjectedValue_1mTo6 {
+.quickaccessmenu_Menu_1gJzx .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
   color: var(--srcery-bright-white);
 }
 
@@ -59,15 +59,12 @@
   color: var(--srcery-black);
 }
 
-/* --- */
 /* Highlights */
-/* --- */
 
 /* Bg highlight */
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
   background: var(--srcery-white) !important;
-  /* animation: none; */
 }
 
 /* Label, Description highlight, PerfProfSetting text, BatteryText */
@@ -101,14 +98,13 @@
   background: var(--srcery-black) !important;
 }
 
+.friendslist_TabBumper_3Jr0A svg path {
+  fill: var(--srcery-white) !important;
+}
+
 .friendslist_TabBumper_3Jr0A svg path:first-of-type {
   stroke: var(--srcery-white) !important;
   fill: none !important;
-}
-
-.friendslist_TabBumper_3Jr0A svg path
-{
-  fill: var(--srcery-white) !important;
 }
 
 .FriendsListTab {

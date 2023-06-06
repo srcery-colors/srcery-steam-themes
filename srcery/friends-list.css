@@ -2,9 +2,25 @@
   border-right: none;
 }
 
+.FriendsListAndChatsSteamDeck .FriendsListSteamDeckTopSection .TabPanelHeader {
+  color: var(--srcery-bright-white);
+}
+
+.FriendsListAndChatsSteamDeck .FriendsListSteamDeckTopSection,
 .FriendsListAndChatsSteamDeck .GamepadMode.friendlist,
 .FriendsListAndChatsSteamDeck .SteamDeckChats .multiChatDialog {
   background: transparent;
+  box-shadow: none;
+}
+
+.FriendsListAndChatsSteamDeck .FriendsListSteamDeckTabs .friendslist_TabBumper_3Jr0A svg path,
+.FriendsListAndChatsSteamDeck .FriendsListSteamDeckTabs .FriendsListTab svg {
+  color: var(--srcery-xgray4);
+  stroke: var(--srcery-xgray4);
+}
+
+.FriendsListAndChatsSteamDeck .FriendsListSteamDeckTabs .FriendsListTab.Active svg {
+  color: var(--srcery-bright-white);
 }
 
 .chatWindow .chatEntry>*.GamepadMode, .GamepadMode .chatWindow .chatEntry>* {

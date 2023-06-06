@@ -24,17 +24,8 @@
   background: var(--srcery-black) !important;
 }
 
-/* .gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */
-.recentlycompleted_BottomSection_3LyF6,
-.recentlycompleted_RecentlyCompletedItem_3OC7i,
-/* .gamepadhomefriends_FavoriteFriend_3SLpz, .gamepadhomefriends_GoToFriends_MVc_6, */
-/* .gamepadhomefriends_FavoriteFriend_3SLpz:focus, .gamepadhomefriends_GoToFriends_MVc_6:focus, */
-.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq,
-.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh,
 .comment_thread_ActivityCommentThread_39nna,
-.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2, /* Game Activity Post Activity Message */
-.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq:focus,
-.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus { /* Focused Game Activity Post Activity Message */
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq:focus {
   background: var(--srcery-white);
 }
 
@@ -46,10 +37,6 @@
   background: var(--srcery-xgray2);
 }
 
-.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
-  box-shadow: none;
-}
-
 .gamepadhomewhatsnew_EventPreviewContainer_1ltOY,
 .gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W-, 
 .localdateandtime_ShortDateAndTime_4K3Bl,
@@ -59,7 +46,6 @@
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo,
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_HeadlineGameName_Gy1Y7 {
   color: var(--srcery-bright-white);
-  /* text-transform: uppercase !important; */
 }
 
 .gamepadhomewhatsnew_EventType_1f0dZ,
@@ -70,9 +56,6 @@
 .appdetailssectionheader_LabelText_3i0ko,
 .gamepadhomerecommended_PlayNextCarouselTitle_2r7cQ,
 .gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW,
-.recentlycompleted_GameName_1EIQL,
-.recentlycompleted_Bytes_TH3M8,
-.recentlycompleted_DownloadInfo_1wLpm,
 .recentlycompleted_PatchNotes_2_b6L,
 .personanameandstatus_playerName_r62qz,
 .personanameandstatus_gameName_2wpap,
@@ -83,27 +66,12 @@
 .comment_thread_CommentText_3Xbao,
 .appdetailsachievementssection_Name_39Y01,
 .appactivityday_StoreGameCapsule_1OYOt,
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG,
-.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2, /* Game Activity Post Activity Message */
-.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2::placeholder,
-.appdetailsplaysection_CloudStatusRow_QvHky > *, /* Steam Cloud Status */
-.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus) .appdetailsplaysection_CloudStatusIcon_1Prjv > svg { /* Steam Cloud Status Icon */
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG {
   color: var(--srcery-bright-white) !important;
-  /* text-transform: uppercase !important; */
 }
 
 .personanameandstatus_gameName_2wpap {
   font-size: 10px;
-}
-
-.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
-  background: var(--srcery-bright-white);
-}
-
-.salepreviewwidgets_StoreSalePriceBox_Wh0L8,
-.BasicUI .salepreviewwidgets_StoreOriginalPrice_1EKGZ, 
-.BasicUI .salepreviewwidgets_StoreSaleDiscountedPriceCtn_3GLeQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
-  color: var(--srcery-black);
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe,
@@ -117,20 +85,24 @@
   color: var(--srcery-bright-white) !important;
 }
 
-/* --- */
 /* Game Play View */
-/* --- */
+
+/* Game launch menu buttons labels */
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ > svg,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX svg {
+  color: var(--srcery-white);
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky > *, /* Steam Cloud Status */
+.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus) .appdetailsplaysection_CloudStatusIcon_1Prjv > svg { /* Steam Cloud Status Icon */
+  color: var(--srcery-bright-white) !important;
+}
 
 /* Game launch menu buttons */
 .BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX,
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ {
   background: var(--srcery-xgray3);
-}
-/* Game launch menu buttons labels */
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX svg,
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ > svg {
-  color: var(--srcery-white);
 }
 
 /* Highlighted game launch menu buttons */
@@ -149,9 +121,9 @@
 }
 
 /* Highlighted game launch menu buttons labels */
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus:focus > svg,
 .BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus .appactionbutton_ButtonText_33cnX,
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus svg,
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus:focus > svg {
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus svg {
   color: var(--srcery-black);
 }
 
@@ -168,9 +140,7 @@
   background: var(--srcery-blue);
 }
 
-/* --- */
 /* Home */
-/* --- */
 
 .salepreviewwidgets_Discounted_35-Ub {
   background: var(--srcery-bright-white);

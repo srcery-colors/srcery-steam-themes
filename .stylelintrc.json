@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "custom-property-pattern": ".*",
+    "keyframes-name-pattern": ".*",
+    "selector-class-pattern": ".*",
+    "selector-id-pattern": ".*"
+  }
+}

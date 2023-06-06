@@ -21,20 +21,16 @@
   background: var(--srcery-bright-white);
 }
 
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
+  fill: var(--srcery-black);
+}
+
 #header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
   fill: var(--srcery-yellow);
 }
 
 #header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT.gpfocus.gpfocuswithin svg path:not(:first-child) {
   fill: var(--srcery-orange);
-}
-
-#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:first-child {
-  fill: var(--srcery-green);
-}
-
-#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
-  fill: var(--srcery-black);
 }
 
 #Footer {
@@ -68,4 +64,26 @@
 
 .shared_svg_library_SteamDeckCompatUnsupported_1SeOP,.shared_svg_library_SteamDeckCompatUnknown_15dEs {
     color: var(--srcery-bright-black)
+}
+
+.offline .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .offline .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-xgray9);
+}
+
+.online .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .online .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-blue);
+}
+
+.audio_VolumePopin_2iUUM {
+  background: var(--srcery-xgray3);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD {
+  background: var(--srcery-black);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD::before {
+  background: var(--srcery-blue);
 }

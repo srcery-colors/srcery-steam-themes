@@ -1,6 +1,4 @@
-/* --- */
 /* Menu Elements */
-/* --- */
 
 /* Menu Element */
 .gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La,
@@ -56,15 +54,5 @@
 .controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled
 {
   background: var(--srcery-xgray6);
-  color: var(--srcery-bright-white);
-}
-
-.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW,
-.DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW {
-  color: var(--srcery-white);
-}
-
-.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
-.DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
   color: var(--srcery-bright-white);
 }

@@ -8,11 +8,11 @@
 /* Dropdown, Button highlight */
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddropdown_DropDownControlButton_28bny,
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_Button_1kn70 {
-  background: var(--srcery-xgray6) !important;
-  color: var(--srcery-bright-white) !important;
+  background: var(--srcery-xgray6);
+  color: var(--srcery-bright-white);
 }
 
-.gamepaddialog_Toggle_24G4g.gpfocus:after {
+.gamepaddialog_Toggle_24G4g.gpfocus::after {
   background-color: var(--srcery-black) !important;
 }
 
@@ -38,17 +38,6 @@
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
   background-color: var(--srcery-black);
 }
-
-/* Slider empty area */
-/* .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N { */
-/*   background: var(--srcery-bright-black); */
-/* } */
-
-/* Slider filled area */
-/* .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N::before { */
-/*   background: var(--srcery-black); */
-/* } */
-
 
 /* Slider handles when they are focused */
 .gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD,
