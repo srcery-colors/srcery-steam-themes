@@ -89,13 +89,6 @@
         "Yes": { "in-game-overlay.css": ["MainMenu"] },
         "No": {}
       }
-    },
-    "ProtonDB Button": {
-      "type": "checkbox",
-      "values": {
-        "Yes": { "proton-db-button.css": ["SP"] },
-        "No": {}
-      }
     }
   }
 }
