@@ -36,7 +36,8 @@
         },
         "Muted (github.com/Tormak9970)": {
           "keyboards/tormak.css": ["All"]
-        }
+        },
+        "None": {}
       },
       "components": []
     },
