@@ -24,26 +24,15 @@
   --srcery-xgray1:         #262626;
   --srcery-xgray2:         #303030;
   --srcery-xgray3:         #3A3A3A;
-  --srcery-xgray4:         #444444;
+  --srcery-xgray4:         #444;
   --srcery-xgray5:         #4E4E4E;
   --srcery-xgray6:         #585858;
   --srcery-xgray7:         #626262;
   --srcery-xgray8:         #6C6C6C;
   --srcery-xgray9:         #767676;
   --srcery-yellow:         #FBB829;
-
   --srcery-black-filter:        brightness(0) saturate(100%) invert(7%) sepia(7%) saturate(673%) hue-rotate(2deg) brightness(95%) contrast(91%);
   --srcery-bright-white-filter: brightness(0) saturate(100%) invert(93%) sepia(5%) saturate(1353%) hue-rotate(352deg) brightness(93%) contrast(113%);
-
-
-  /* Overriding color of colored toggles */
-  --colored-toggles-main-color: var(--srcery-blue) !important;
-  --colored-toggles-friends-text-color: var(--srcery-black) !important;
-  --custom-compat-icons-deck: var(--srcery-bright-white) !important;
-  --custom-compat-icons-verified: var(--srcery-green) !important;
-  --custom-compat-icons-playable: var(--srcery-orange) !important;
-  --custom-compat-icons-unsupported: var(--srcery-red) !important;
-  --custom-compat-icons-unknown: var(--srcery-xgray4) !important;
 }
 
 @keyframes settingsTabFocusAnimation {

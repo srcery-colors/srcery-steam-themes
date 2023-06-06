@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "keyframes-name-pattern": ".*",
+    "selector-class-pattern": ".*",
+    "selector-id-pattern": ".*"
+  }
+}

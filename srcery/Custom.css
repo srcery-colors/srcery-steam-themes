@@ -66,9 +66,7 @@
 .comment_thread_CommentText_3Xbao,
 .appdetailsachievementssection_Name_39Y01,
 .appactivityday_StoreGameCapsule_1OYOt,
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG,
-.appdetailsplaysection_CloudStatusRow_QvHky > *, /* Steam Cloud Status */
-.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus) .appdetailsplaysection_CloudStatusIcon_1Prjv > svg { /* Steam Cloud Status Icon */
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG {
   color: var(--srcery-bright-white) !important;
 }
 
@@ -87,20 +85,24 @@
   color: var(--srcery-bright-white) !important;
 }
 
-/* --- */
 /* Game Play View */
-/* --- */
+
+/* Game launch menu buttons labels */
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ > svg,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX svg {
+  color: var(--srcery-white);
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky > *, /* Steam Cloud Status */
+.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus) .appdetailsplaysection_CloudStatusIcon_1Prjv > svg { /* Steam Cloud Status Icon */
+  color: var(--srcery-bright-white) !important;
+}
 
 /* Game launch menu buttons */
 .BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX,
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ {
   background: var(--srcery-xgray3);
-}
-/* Game launch menu buttons labels */
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX svg,
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ > svg {
-  color: var(--srcery-white);
 }
 
 /* Highlighted game launch menu buttons */
@@ -119,9 +121,9 @@
 }
 
 /* Highlighted game launch menu buttons labels */
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus:focus > svg,
 .BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus .appactionbutton_ButtonText_33cnX,
-.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus svg,
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus:focus > svg {
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus:focus svg {
   color: var(--srcery-black);
 }
 
@@ -138,9 +140,7 @@
   background: var(--srcery-blue);
 }
 
-/* --- */
 /* Home */
-/* --- */
 
 .salepreviewwidgets_Discounted_35-Ub {
   background: var(--srcery-bright-white);

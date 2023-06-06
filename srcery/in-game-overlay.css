@@ -7,8 +7,8 @@
   background: var(--srcery-hard-black);
 }
 
-@media screen and (max-width: 1280px) {
-  .mainmenuapprunning_NavigationColumn_27FEg:before {
+@media screen and (width <= 1280px) {
+  .mainmenuapprunning_NavigationColumn_27FEg::before {
     background: none;
   }
 }

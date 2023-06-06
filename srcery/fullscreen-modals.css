@@ -10,8 +10,6 @@
     var(--srcery-black) 20%,
     transparent 100%
   );
-  /* background: var(--srcery-black); */
-  /* opacity: 0.85; */
   backdrop-filter: sepia(100%) blur(4px);
 }
 
@@ -47,6 +45,7 @@
 .contextMenuItem.gpfocus.gamepadcontextmenu_Destructive_3aIFv {
   background: var(--srcery-white);
   color: var(--srcery-black);
+
   /* TODO this animation doesn't seem to be working. */
   animation-name: settingsTabFocusAnimation;
   padding-left: 1.5rem;
@@ -102,8 +101,8 @@
 }
 
 /* Submenu allign to top */
-.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child),
-.gamepadcontextmenu_contextMenuContents_sIgB-:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child) {
+.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2, :first-child),
+.gamepadcontextmenu_contextMenuContents_sIgB-:not(.basiccontextmenu_hasSubMenu_1Mql2, :first-child) {
   align-self: end;
   margin-left: 10%;
 }
@@ -124,7 +123,9 @@
 }
 
 /* --- */
+
 /* Modal Menu */
+
 /* --- */
 
 .gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
@@ -143,6 +144,7 @@
 
 .ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton {
   margin: auto;
+
   /* border-radius: 0 !important; */
   background: transparent;
   color: var(--srcery-bright-white);
@@ -174,6 +176,7 @@
 .ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled {
   background: transparent;
   color: var(--srcery-bright-white);
+
   /* border-radius: 0; */
   text-transform: uppercase;
 }
@@ -218,17 +221,17 @@
 }
 
 /* Selected menu Element Text */
+.ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-bright-white);
+}
+
 .ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
 .ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
 .ModalOverlayContent .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
   color: var(--srcery-black);
 }
 
-.gamepaddialog_LabelFieldValue_5Mylh {
-  color: var(--srcery-bright-white);
-}
-
-.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_LabelFieldValue_5Mylh {
+.ModalOverlayContent .gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_LabelFieldValue_5Mylh {
   color: var(--srcery-black);
 }
 

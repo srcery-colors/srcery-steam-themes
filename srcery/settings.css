@@ -77,18 +77,18 @@
 }
 
 /* Star icon for favorite install directory. */
+.contentmanagement_IsSelected_3VQeL svg,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I {
+  color: var(--srcery-black);
+}
+
 .contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
   color: var(--srcery-yellow) !important;
 }
 
 .contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
   background: var(--srcery-white);
-}
-
-.contentmanagement_IsSelected_3VQeL svg,
-.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl,
-.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I {
-  color: var(--srcery-black);
 }
 
 /* Usage bar colors */

@@ -21,16 +21,16 @@
   background: var(--srcery-bright-white);
 }
 
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
+  fill: var(--srcery-black);
+}
+
 #header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
   fill: var(--srcery-yellow);
 }
 
 #header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT.gpfocus.gpfocuswithin svg path:not(:first-child) {
   fill: var(--srcery-orange);
-}
-
-#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
-  fill: var(--srcery-black);
 }
 
 #Footer {
