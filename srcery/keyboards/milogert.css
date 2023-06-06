@@ -5,7 +5,7 @@
 
 /* Set the font to the srcery font for just the Default theme. */
 .virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O .DefaultTheme * {
-  font-family: srcery-font !important;
+  font-family: srcery-font, monospace !important;
 }
 
 .virtualkeyboard_Keyboard_45rH7.DefaultTheme {
