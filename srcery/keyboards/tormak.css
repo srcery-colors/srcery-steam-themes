@@ -1,0 +1,105 @@
+:root {
+  --srcery-keyboard-background: var(--srcery-hard-black);
+
+  --srcery-base-key-background: var(--srcery-black);
+  --srcery-base-key-color: var(--srcery-bright-white);
+  
+  --srcery-function-key-background: var(--srcery-white);
+  --srcery-function-key-color: var(--srcery-bright-white);
+
+  --srcery-key-background__selected: var(--srcery-bright-white);
+  --srcery-key-color__selected: var(--srcery-hard-black);
+
+  --srcery-key-toggle-background: var(--srcery-bright-green);
+  --srcery-key-toggle-color: var(--srcery-bright-white)
+}
+
+.DefaultTheme {
+  /* General variables */
+  --background-color: var(--srcery-keyboard-background);
+
+  /* Main Keyboard variables */
+  --key-focused-action-button-left-color: var(--srcery-key-color__selected);
+  --key-focused-action-button-right-color: var(--srcery-key-color__selected);
+  --key-action-button-glyph-color: var(--srcery-function-key-color);
+
+  --key-color: var(--srcery-base-key-color);
+  --key-focused-color: var(--srcery-key-color__selected);
+
+  --key-background-color: var(--srcery-base-key-background);
+  --key-focused-background-color: var(--srcery-key-background__selected);
+
+  --key-meta-color: var(--srcery-function-key-color);
+  --key-meta-background-color: var(--srcery-function-key-background);
+
+  /* Function Keys */
+  --key-tab-color: var(--srcery-function-key-color);
+  --key-tab-background-color: var(--srcery-function-key-background);
+
+  --key-caps-color: var(--srcery-function-key-color);
+  --key-caps-background-color: var(--srcery-function-key-background);
+
+  --key-shift-color: var(--srcery-function-key-color);
+  --key-shift-background-color: var(--srcery-function-key-background);
+
+  --key-enter-color: var(--srcery-function-key-color);
+  --key-enter-background-color: var(--srcery-function-key-background);
+  --key-enter-action-button-glyph-color: var(--srcery-key-color__selected);
+
+  --key-backspace-color: var(--srcery-function-key-color);
+  --key-backspace-background-color: var(--srcery-function-key-background);
+
+  --key-spacebar-color: var(--srcery-base-key-color);
+  --key-spacebar-background-color: var(--srcery-base-key-background);
+
+  --key-spacer-background-color: var(--srcery-function-key-background);
+
+  /* extendedkey Key variables */
+  --key-extendedkey-background-color: var(--srcery-key-toggle-background);
+  --key-extendedkey-color: var(--srcery-function-key-color);
+
+  --key-extendedkey-focused-background-color: var(--srcery-function-key-color);
+  --key-extendedkey-focused-color: var(--srcery-key-color__selected);
+
+  --key-extendedkey-hover-background-color: var(--srcery-function-key-color);
+  --key-extendedkey-hover-color: var(--srcery-key-color__selected);
+
+  /* Key Toggle variables */
+  --key-toggleon-background-color: var(--srcery-key-toggle-background);
+  --key-toggleon-color: var(--srcery-base-key-color);
+  --key-toggleoneshot-color: var(--srcery-key-toggle-background);
+
+  /* Emoji page variables */
+  --key-emoji-category-highlight-background-color: var(--srcery-function-key-background);
+  --key-emoji-focused-background-color: var(--srcery-key-background__selected);
+
+  /* Mouse Pointer variables */
+  --key-touched-background-color: var(--srcery-key-background__selected);
+  --key-touched-color: var(--srcery-key-toggle-color);
+
+  --key-pointer-stroke-color: var(--srcery-key-toggle-color);
+  --key-pointer-background-color: var(--srcery-key-toggle-background);
+
+  --key-deadkey-background-color: var(--srcery-key-toggle-color);
+  --key-deadkeyinactive-color: var(--srcery-base-key-color);
+  --key-deadkeyactive-color: var(--srcery-key-toggle-background);
+}
+
+.DefaultTheme div[class*="virtualkeyboard_KeyboardKey"][class*="virtualkeyboard_Touched"] {
+  color: var(--srcery-key-toggle-color) !important;
+  background-color: var(--srcery-key-toggle-background) !important;
+}
+
+div[class*="virtualkeyboard_KeyboardSpacer"] {
+  background-color: var(--srcery-function-key-background) !important;
+}
+
+
+.virtualkeyboard_ActionButtonGlyph_3VtXf img {
+  /* This converts #000000 to #918175 (srcery-bright-black) */
+  filter: invert(16%) sepia(3%) saturate(2787%) hue-rotate(344deg) brightness(104%) contrast(116%);
+}
+.virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
+  /* This converts #ffffff to #918175 (srcery-bright-black) */
+  filter: invert(100%) sepia(33%) saturate(169%) hue-rotate(343deg) brightness(93%) contrast(93%);
+}
