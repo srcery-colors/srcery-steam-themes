@@ -2,10 +2,14 @@
   color: var(--srcery-bright-white);
 }
 
+.controllerconfigurator_CommunityConfigsCallout_1xfC8 .controllerconfigurator_Description_38ea5 .controllerconfigurator_SubTitle_2-E4i {
+  color: var(--srcery-black);
+}
+
 /* Remove Background from Controller config menu */
+.controllerconfigurator_ControllerConfiguratorMain_APY6j,
 .controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_BottomSection_3RsRf,
-.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9,
-.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_ControllerConfiguratorMain_APY6j {
+.controllerconfigurator_ControllerConfiguratorMain_APY6j .controllerconfigurator_TopSection_20sN9 {
   background: transparent;
 }
 

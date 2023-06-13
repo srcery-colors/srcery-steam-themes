@@ -67,7 +67,6 @@
 .BasicUIContextMenu .dropdownlabel_DropDownLabelTitle_uDBZW,
 .BasicUIContextMenu .dropdownlabel_DropDownLabelDescription_1JPcb {
   color: var(--srcery-bright-white);
-  text-transform: uppercase;
 }
 
 /* Highlighted Text Title/Description */
@@ -148,7 +147,6 @@
   /* border-radius: 0 !important; */
   background: transparent;
   color: var(--srcery-bright-white);
-  text-transform: uppercase;
 }
 
 .ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton.gpfocus {
@@ -160,7 +158,6 @@
 .ModalOverlayContent .GenericConfirmDialog .DialogBodyText,
 .ModalOverlayContent .mediapage_Title_3QFEe {
   color: var(--srcery-bright-white);
-  text-transform: uppercase;
   justify-content: center;
   text-align: center;
 }
@@ -176,9 +173,6 @@
 .ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled {
   background: transparent;
   color: var(--srcery-bright-white);
-
-  /* border-radius: 0; */
-  text-transform: uppercase;
 }
 
 /* Highlighted Button */
@@ -209,7 +203,6 @@
 .ModalOverlayContent .gamepaddialog_FieldDescription_2OJfk,
 .ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh {
   color: var(--srcery-bright-white);
-  text-transform: uppercase;
 }
 
 /* Selected Menu Element */
