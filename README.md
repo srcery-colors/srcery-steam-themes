@@ -1,6 +1,9 @@
 # Steam Deck Theme
 Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew
 
+# Steam Desktop Theme
+Srcery Theme for the Desktop Steam Application.
+
 ## Uploading a New Version
 
 1. Head to https://deckthemes.com/submit

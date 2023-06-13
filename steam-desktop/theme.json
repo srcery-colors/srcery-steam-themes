@@ -1,0 +1,26 @@
+{
+  "name": "Srcery Desktop",
+  "description": "A color scheme for your Steam desktop app. See more at https://srcery.sh",
+  "author": "Tormak",
+  "version": "v1.0.0",
+  "manifest_version": 7,
+  "target": "Desktop",
+  "inject": {
+    "shared.css": [ ".*" ]
+  },
+  "dependencies": {
+    "Color Master": {}
+  },
+  "patches": {
+    "Font": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "font.css": [ "SteamLibraryWindow|Steam" ]
+        },
+        "No": {}
+      }
+    }
+  }
+}
