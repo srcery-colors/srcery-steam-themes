@@ -1,26 +1,63 @@
-.notificationcontent_Content_2TTnY {
-  background-color: var(--srcery-black) !important;
+:root {
+  --srcery-black:          #1C1B19;
+  --srcery-blue:           #2C78BF;
+  --srcery-bright-black:   #918175;
+  --srcery-bright-blue:    #68A8E4;
+  --srcery-bright-cyan:    #2BE4D0;
+  --srcery-bright-green:   #98BC37;
+  --srcery-bright-magenta: #FF5C8F;
+  --srcery-bright-orange:  #FF8700;
+  --srcery-bright-red:     #F75341;
+  --srcery-bright-white:   #FCE8C3;
+  --srcery-bright-yellow:  #FED06E;
+  --srcery-cyan:           #0AAEB3;
+  --srcery-green:          #519F50;
+  --srcery-hard-black:     #121212;
+  --srcery-magenta:        #E02C6D;
+  --srcery-orange:         #FF5F00;
+  --srcery-red:            #EF2F27;
+  --srcery-teal:           #008080;
+  --srcery-white:          #BAA67F;
+  --srcery-xgray10:        #808080;
+  --srcery-xgray11:        #8A8A8A;
+  --srcery-xgray12:        #949494;
+  --srcery-xgray1:         #262626;
+  --srcery-xgray2:         #303030;
+  --srcery-xgray3:         #3A3A3A;
+  --srcery-xgray4:         #444;
+  --srcery-xgray5:         #4E4E4E;
+  --srcery-xgray6:         #585858;
+  --srcery-xgray7:         #626262;
+  --srcery-xgray8:         #6C6C6C;
+  --srcery-xgray9:         #767676;
+  --srcery-yellow:         #FBB829;
+  --srcery-black-filter:        brightness(0) saturate(100%) invert(7%) sepia(7%) saturate(673%) hue-rotate(2deg) brightness(95%) contrast(91%);
+  --srcery-bright-white-filter: brightness(0) saturate(100%) invert(93%) sepia(5%) saturate(1353%) hue-rotate(352deg) brightness(93%) contrast(113%);
 }
 
-.notificationcontent_Header_1KnyC,
-.notificationcontent_Icon_opgc6,
-.notificationcontent_Title_3qzN6,
-.notificationcontent_PinnedBody_3V6Rp {
-  color: var(--srcery-bright-white) !important;
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_ShortTemplate_nwer8  {
+  background-color: var(--srcery-xgray3);
 }
 
-.notificationcontent_Timestamp_3q7nN {
-  color: var(--srcery-xgray4) !important;
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Header_1KnyC,
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Icon_opgc6,
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Title_3qzN6 {
+  color: var(--srcery-bright-white);
 }
 
-.notificationcontent_StandardNotificationDescription_zB56A {
-  color: var(--srcery-white) !important;
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_PinnedBody_3V6Rp {
+  color: var(--srcery-white);
 }
 
-.notificationcontent_StandardNotificationSubText_EVwRp {
-  color: var(--srcery-bright-black) !important;
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Timestamp_3q7nN {
+  color: var(--srcery-xgray6);
 }
 
-.notificationcontent_FriendInGameAppColor_3uw_G {
-  color: var(--srcery-green) !important;
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_StandardNotificationDescription_zB56A,
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_StandardNotificationSubText_EVwRp {
+  color: var(--srcery-white);
+}
+
+.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_FriendInGameAppColor_3uw_G {
+  color: var(--srcery-green);
 }

@@ -4,7 +4,7 @@
 
 .mainmenu_Menu_23IDi .mainmenu_ItemLabel_3x-ZK,
 .mainmenu_Menu_23IDi .mainmenu_ItemIcon_3xZ3Z {
-  color: var(--srcery-bright-white);
+  color: var(--srcery-white);
 }
 
 .mainmenu_Menu_23IDi .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z,
@@ -17,6 +17,7 @@
 }
 
 .mainmenu_Menu_23IDi .mainmenu_Item_2w9Tp {
+  position: relative;
   transform: none;
 }
 
@@ -52,4 +53,5 @@
   content: "›";
   color: var(--srcery-blue);
   font-size: 1.5rem;
+  margin-bottom: 3px
 }

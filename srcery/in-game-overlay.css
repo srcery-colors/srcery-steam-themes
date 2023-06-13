@@ -1,18 +1,47 @@
+@keyframes srcery-mainmenuapprunning_ItemFocusAnim-darkerGrey_3hDT4 {
+  from {
+    background: var(--srcery-white-white);
+    color: var(--srcery-xgray1);
+  }
+
+  to {
+    background: var(--srcery-xgray6);
+    color: var(--srcery-bright-white);
+  }
+}
+
+.mainmenuapprunning_AppColumn_3FAI9 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV,
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q {
+  background: var(--srcery-hard-black);
+}
+
 /* Center column background */
 .mainmenuapprunning_ScrollMask_322FV {
   background: var(--srcery-xgray1);
 }
 
-.mainmenuapprunning_NavigationColumn_27FEg {
-  background: var(--srcery-hard-black);
+.mainmenuapprunning_NavigationColumn_27FEg::before {
+  background: none;
+  content: none;
 }
 
-@media screen and (width <= 1280px) {
-  .mainmenuapprunning_NavigationColumn_27FEg::before {
-    background: none;
-  }
-}
-
+.mainmenuapprunning_AppColumn_3FAI9.mainmenuapprunning_FocusedColumn_lz9Db .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV,
+.mainmenuapprunning_NavigationColumn_27FEg.mainmenuapprunning_NavColumnFocused_2wkOt,
 .mainmenuapprunning_AppColumn_3FAI9.mainmenuapprunning_FocusedColumn_lz9Db {
   background: var(--srcery-black);
 }
+
+.mainmenuapprunning_NavigationBox_36vNU .mainmenuapprunning_NavigationMenuItem_1G0K4 {
+  color: var(--srcery-white);
+}
+
+.mainmenuapprunning_NavigationBox_36vNU .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus.gpfocuswithin {
+  background: var(--srcery-xgray6);
+  color: var(--srcery-bright-white);
+  animation-name: srcery-mainmenuapprunning_ItemFocusAnim-darkerGrey_3hDT4;
+}
+
+.mainmenuapprunning_NavigationBox_36vNU .mainmenuapprunning_NavigationMenuItem_1G0K4 .mainmenuapprunning_ActiveDot_13YbV {
+  background: var(--srcery-blue);
+}
+
