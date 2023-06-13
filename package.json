@@ -4,7 +4,7 @@
   "description": "Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint 'srcery/**/*.css'"
+    "lint": "stylelint '**/*.css'"
   },
   "repository": {
     "type": "git",
