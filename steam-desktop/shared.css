@@ -48,18 +48,18 @@
   --color-master-bright-red: var(--srcery-bright-red) !important;
 
   /** These variables are used in some of the gradients */
-  --color-master-black-rgb:          28, 27, 25 !important;
-  --color-master-black-rgb2:         207, 201, 193 !important;
-  --color-master-black-rgb3:         66, 57, 43 !important;
-  --color-master-black-rgb4:         47, 42, 36 !important;
-  --color-master-black-rgb5:         80, 71, 62 !important;
-  --color-master-black-rgb6:         127, 117, 107 !important;
+  --color-master-black_rgb:          28, 27, 25 !important;
+  --color-master-black2_rgb:         207, 201, 193 !important;
+  --color-master-black3_rgb:         66, 57, 43 !important;
+  --color-master-black4_rgb:         47, 42, 36 !important;
+  --color-master-black5_rgb:         80, 71, 62 !important;
+  --color-master-black6_rgb:         127, 117, 107 !important;
   --color-master-black-orange:       121, 99, 85 !important;
   --color-master-black-orange2:      92, 80, 75 !important;
   --color-master-black-orange3:      58, 51, 46 !important;
-  --color-master-white-rgb:          186, 166, 127 !important;
-  --color-master-bright-white-rgb:   252, 232, 195 !important;
-  --color-master-bright-white-rgb2:  221, 199, 157 !important;
+  --color-master-white_rgb:          186, 166, 127 !important;
+  --color-master-bright-white_rgb:   252, 232, 195 !important;
+  --color-master-bright-white2_rgb:  221, 199, 157 !important;
 
   --color-master-gp-grad-stop1: 104, 92, 83 !important;
   --color-master-gp-grad-stop2: 184, 154, 125 !important;
