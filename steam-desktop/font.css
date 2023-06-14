@@ -1,0 +1,9 @@
+@font-face {
+  font-family: srcery-font;
+  /* src: url("/themes_custom/srcery/font-firacode-regular.ttf"); */
+  src: url("/themes_custom/srcery/font-iosevka-regular.ttf");
+}
+
+* {
+  font-family: srcery-font !important;
+}

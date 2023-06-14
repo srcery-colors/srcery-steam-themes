@@ -1,0 +1,67 @@
+:root {
+  --srcery-black:          #1C1B19;
+  --srcery-blue:           #2C78BF;
+  --srcery-bright-black:   #918175;
+  --srcery-bright-blue:    #68A8E4;
+  --srcery-bright-cyan:    #2BE4D0;
+  --srcery-bright-green:   #98BC37;
+  --srcery-bright-magenta: #FF5C8F;
+  --srcery-bright-orange:  #FF8700;
+  --srcery-bright-red:     #F75341;
+  --srcery-bright-white:   #FCE8C3;
+  --srcery-bright-yellow:  #FED06E;
+  --srcery-cyan:           #0AAEB3;
+  --srcery-green:          #519F50;
+  --srcery-hard-black:     #121212;
+  --srcery-magenta:        #E02C6D;
+  --srcery-orange:         #FF5F00;
+  --srcery-red:            #EF2F27;
+  --srcery-teal:           #008080;
+  --srcery-white:          #BAA67F;
+  --srcery-xgray10:        #808080;
+  --srcery-xgray11:        #8A8A8A;
+  --srcery-xgray12:        #949494;
+  --srcery-xgray1:         #262626;
+  --srcery-xgray2:         #303030;
+  --srcery-xgray3:         #3A3A3A;
+  --srcery-xgray4:         #444444;
+  --srcery-xgray5:         #4E4E4E;
+  --srcery-xgray6:         #585858;
+  --srcery-xgray7:         #626262;
+  --srcery-xgray8:         #6C6C6C;
+  --srcery-xgray9:         #767676;
+  --srcery-yellow:         #FBB829;
+
+  /* Override Color Master's variables */
+  --color-master-dark-black: var(--srcery-hard-black) !important;
+  --color-master-black: var(--srcery-black) !important;
+  --color-master-bright-black: var(--srcery-bright-black) !important;
+  --color-master-white: var(--srcery-white) !important;
+  --color-master-bright-white: var(--srcery-bright-white) !important;
+  --color-master-gray1: var(--srcery-xgray1) !important;
+  --color-master-gray2: var(--srcery-xgray4) !important;
+  --color-master-gray3: var(--srcery-xgray5) !important;
+  --color-master-gray4: var(--srcery-xgray9) !important;
+  --color-master-gray5: var(--srcery-xgray12) !important;
+  --color-master-blue: var(--srcery-blue) !important;
+  --color-master-bright-green: var(--srcery-bright-green) !important;
+  --color-master-bright-red: var(--srcery-bright-red) !important;
+
+  /** These variables are used in some of the gradients */
+  --color-master-black_rgb:          28, 27, 25 !important;
+  --color-master-black2_rgb:         207, 201, 193 !important;
+  --color-master-black3_rgb:         66, 57, 43 !important;
+  --color-master-black4_rgb:         47, 42, 36 !important;
+  --color-master-black5_rgb:         80, 71, 62 !important;
+  --color-master-black6_rgb:         127, 117, 107 !important;
+  --color-master-black-orange:       121, 99, 85 !important;
+  --color-master-black-orange2:      92, 80, 75 !important;
+  --color-master-black-orange3:      58, 51, 46 !important;
+  --color-master-white_rgb:          186, 166, 127 !important;
+  --color-master-bright-white_rgb:   252, 232, 195 !important;
+  --color-master-bright-white2_rgb:  221, 199, 157 !important;
+
+  --color-master-gp-grad-stop1: 104, 92, 83 !important;
+  --color-master-gp-grad-stop2: 184, 154, 125 !important;
+  --color-master-gp-grad-stop3: 204, 178, 153 !important;
+}
