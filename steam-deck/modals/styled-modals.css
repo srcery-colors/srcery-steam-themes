@@ -1,0 +1,193 @@
+/* Background (with blur) */
+.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
+  background: linear-gradient(
+    90deg,
+    var(--srcery-black) 0%,
+    var(--srcery-black) 20%,
+    transparent 100%
+  );
+  backdrop-filter: sepia(100%) blur(4px);
+}
+
+/* Header */
+.basiccontextmenu_BasicContextMenuHeader_2nHKK,
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+  color: var(--srcery-bright-white);
+}
+
+/* Standard text */
+.basiccontextmenu_contextMenuItem_3PqLg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
+  background: var(--srcery-black);
+  color: var(--srcery-white);
+}
+
+/* Selected item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg,
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.gpfocus {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.gamepadcontextmenu_Destructive_3aIFv,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Stop,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r.Cancel {
+  background: var(--srcery-red);
+  color: var(--srcery-black);
+}
+
+/* Selected item (Play button only) */
+.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.Play.gpfocus {
+  background: var(--srcery-green);
+}
+
+/* Item highlighted when in sub menu */
+.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.Panel.Focusable {
+  background: var(--srcery-xgray9);
+  color: var(--srcery-bright-white);
+}
+
+/* Text Title/Description */
+.BasicUIContextMenu .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .dropdownlabel_DropDownLabelDescription_1JPcb {
+  color: var(--srcery-bright-white);
+}
+
+/* Highlighted Text Title/Description */
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb {
+  color: var(--srcery-black);
+}
+
+/* Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN .SVGIcon_DownArrowContextMenu {
+  fill: var(--srcery-bright-white);
+}
+
+/* Highlighted Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic.gpfocus .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gpfocus .SVGIcon_DownArrowContextMenu {
+  fill: var(--srcery-black);
+}
+
+/* Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
+  background: var(--srcery-xgray3);
+}
+
+/* Highlighted Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET.gpfocus {
+  background: var(--srcery-white);
+}
+
+/* --- */
+
+/* Modal Menu */
+
+/* --- */
+
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
+  background: var(--srcery-black) !important;
+  border-color: var(--srcery-bright-black);
+}
+
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk.GenericConfirmDialog {
+  background: transparent;
+  border-color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton {
+  color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton.gpfocus {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .GenericConfirmDialog .DialogHeader,
+.ModalOverlayContent .GenericConfirmDialog .DialogBodyText,
+.ModalOverlayContent .mediapage_Title_3QFEe {
+  color: var(--srcery-bright-white);
+}
+
+/* Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+  color: var(--srcery-bright-white);
+}
+
+/* Highlighted Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* Primary button (this isnt a danger button, there's a special class for that) */
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary {
+  background: var(--srcery-blue);
+  color: var(--srcery-black);
+}
+
+/* Secondary button */
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Secondary,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Secondary {
+  background: var(--srcery-white);
+  color: var(--srcery-black);
+}
+
+/* Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La,
+.ModalOverlayContent .gamepaddialog_FieldLabel_3b0U-,
+.ModalOverlayContent .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-bright-white);
+}
+
+/* Selected Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+  background: var(--srcery-bright-white);
+  color: var(--srcery-black);
+}
+
+/* Selected menu Element Text */
+.ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-black);
+}
+
+.ModalOverlayContent .gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_LabelFieldValue_5Mylh {
+  color: var(--srcery-black);
+}
+
+/** Deck Verified modal */
+
+.deckverified_CompatibilityDetailsContainer_1eAfS,
+.deckverified_CompatibilityDetailRatingSummary_1dRcO,
+.deckverified_CompatibilityDetailsRow_i-kKr {
+  color: var(--srcery-white);
+}
+
+.deckverified_CompatibilityDetailsNoteRow_2Bejw {
+  color: var(--srcery-xgray9);
+}
+
+.deckverified_DialogTitle_2FOcP {
+  color: var(--srcery-bright-white);
+}

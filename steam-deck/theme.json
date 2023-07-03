@@ -1,29 +1,29 @@
 {
   "name": "Srcery",
-  "description": "A color scheme with clearly defined constrasting colors and a slightly earthy tone. See more at https://srcery.sh",
   "author": "milogert",
-  "version": "v0.4",
-  "manifest_version": 4,
-  "target": "System-Wide",
+  "version": "v0.5.0",
+  "manifest_version": 7,
   "inject": {
-    "shared.css": ["All"],
-    "home-page.css": ["All"],
-    "system.css": ["SP"],
-    "notifications.css": ["All"],
-    "toggle-switch.css": ["All"],
-    "pill-menus.css": ["SP"],
-    "friends-list.css": ["SP"],
-    "downloads.css": ["SP"],
-    "library.css": ["SP"],
-    "Custom.css": ["SP"],
-    "account-page.css": ["SP"]
+    "shared.css": [ "All" ],
+    "home-page.css": [ "All" ],
+    "system.css": [ "SP" ],
+    "notifications.css": [ "All" ],
+    "toggle-switch.css": [ "All" ],
+    "pill-menus.css": [ "SP" ],
+    "friends-list.css": [ "SP" ],
+    "downloads.css": [ "SP" ],
+    "library.css": [ "SP" ],
+    "Custom.css": [  "SP" ],
+    "account-page.css": [ "SP" ]
   },
- "dependencies": {},
+  "dependencies": {},
   "patches": {
     "Font": {
       "type": "checkbox",
       "values": {
-        "Yes": { "font.css": ["All"] },
+        "Yes": {
+          "font.css": [ "All" ]
+        },
         "No": {}
       }
     },
@@ -32,61 +32,79 @@
       "default": "Colorful (github.com/milogert)",
       "values": {
         "Colorful (github.com/milogert)": {
-          "keyboards/milogert.css": ["All"]
+          "keyboards/milogert.css": [ "All" ]
         },
         "Muted (github.com/Tormak9970)": {
-          "keyboards/tormak.css": ["All"]
+          "keyboards/tormak.css": [ "All" ]
         },
         "None": {}
       },
       "components": []
     },
     "Fullscreen Modals": {
-      "type": "checkbox",
+      "type": "dropdown",
+      "default": "Fullscreen",
       "values": {
-        "Yes": { "fullscreen-modals.css": ["SP"] },
-        "No": {}
+        "Fullscreen": {
+          "modals/fullscreen-modals.css": [ "SP" ]
+        },
+        "Styled": {
+          "modals/styled-modals.css": [ "SP" ]
+        },
+        "None": {}
       }
     },
     "Quick Access": {
       "type": "checkbox",
       "values": {
-        "Yes": { "quick-access-menu.css": ["QuickAccess"] },
+        "Yes": {
+          "quick-access-menu.css": [ "QuickAccess" ]
+        },
         "No": {}
       }
     },
     "Main Menu": {
       "type": "checkbox",
       "values": {
-        "Yes": { "main-menu.css": ["MainMenu"] },
+        "Yes": {
+          "main-menu.css": [ "MainMenu" ]
+        },
         "No": {}
       }
     },
     "Settings": {
       "type": "checkbox",
       "values": {
-        "Yes": { "settings.css": ["SP"] },
+        "Yes": {
+          "settings.css": [ "SP" ]
+        },
         "No": {}
       }
     },
     "Components": {
       "type": "checkbox",
       "values": {
-        "Yes": { "Components.css": ["SP"] },
+        "Yes": {
+          "Components.css": [ "SP" ]
+        },
         "No": {}
       }
     },
     "Controller Settings": {
       "type": "checkbox",
       "values": {
-        "Yes": { "controller-settings.css": ["SP", "MainMenu"] },
+        "Yes": {
+          "controller-settings.css": [ "SP", "MainMenu" ]
+        },
         "No": {}
       }
     },
     "In-Game Overlay": {
       "type": "checkbox",
       "values": {
-        "Yes": { "in-game-overlay.css": ["MainMenu"] },
+        "Yes": {
+          "in-game-overlay.css": [ "MainMenu" ]
+        },
         "No": {}
       }
     }
