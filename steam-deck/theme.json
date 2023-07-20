@@ -107,6 +107,16 @@
         },
         "No": {}
       }
+    },
+    "Clear Game Details": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "compat-patches/clean-game-view.css": [ "All" ]
+        },
+        "No": {}
+      }
     }
   }
 }
