@@ -6,7 +6,7 @@
   "inject": {
     "shared.css": [ "All" ],
     "home-page.css": [ "All" ],
-    "system.css": [ "SP" ],
+    "system.css": [ "SP", "QuickAccess" ],
     "notifications.css": [ "notificationtoasts.*" ],
     "toggle-switch.css": [ "All" ],
     "pill-menus.css": [ "SP" ],
