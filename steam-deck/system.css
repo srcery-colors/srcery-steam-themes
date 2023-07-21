@@ -41,8 +41,12 @@
   color: var(--srcery-bright-white);
 }
 
-#Footer .footer_Item_wesFG .actionbuttonlegenditem_ActionButtonGlyph_3Jfd8 img {
+#Footer .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonGlyph_3Jfd8 img {
   filter: var(--srcery-bright-white-filter);
+}
+
+#Footer .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+  color: var(--srcery-white);
 }
 
 .backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {

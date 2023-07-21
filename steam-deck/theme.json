@@ -1,20 +1,21 @@
 {
   "name": "Srcery",
   "author": "milogert",
-  "version": "v0.5.0",
+  "version": "v0.5.1",
   "manifest_version": 7,
   "inject": {
     "shared.css": [ "All" ],
     "home-page.css": [ "All" ],
-    "system.css": [ "SP" ],
-    "notifications.css": [ "All" ],
+    "system.css": [ "SP", "QuickAccess" ],
+    "notifications.css": [ "notificationtoasts.*" ],
     "toggle-switch.css": [ "All" ],
     "pill-menus.css": [ "SP" ],
     "friends-list.css": [ "SP" ],
     "downloads.css": [ "SP" ],
     "library.css": [ "SP" ],
     "Custom.css": [  "SP" ],
-    "account-page.css": [ "SP" ]
+    "account-page.css": [ "SP" ],
+    "loader.css": [ "SP", "QuickAccess" ]
   },
   "dependencies": {},
   "patches": {

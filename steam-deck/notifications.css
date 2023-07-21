@@ -35,13 +35,13 @@
   --srcery-bright-white-filter: brightness(0) saturate(100%) invert(93%) sepia(5%) saturate(1353%) hue-rotate(352deg) brightness(93%) contrast(113%);
 }
 
-.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_ShortTemplate_nwer8  {
+.gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb  {
   background-color: var(--srcery-xgray3);
 }
 
-.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Header_1KnyC,
-.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Icon_opgc6,
-.gamepadtoasts_GamepadToastPopup_3YTh8 .notificationcontent_Title_3qzN6 {
+.gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Header_2wU4t,
+.gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Icon_2TlJy,
+.gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Title_BkpSl {
   color: var(--srcery-bright-white);
 }
 
