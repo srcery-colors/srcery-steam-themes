@@ -39,32 +39,6 @@
   background-color: var(--srcery-xgray3);
 }
 
-/* <div class="gamepadtoasts_GamepadToastPopup_3YTh8" style="--toast-duration:5000ms;"> */
-/*   <div class="shorttemplates_ShortTemplate_29NLb Panel Focusable" tabindex="0"> */
-/*     <div class="shorttemplates_ShortLogoDimensions_3JWai"> */
-/*       <div class="notificationcontent_AppLogo_3qFX5"> */
-/*         <img class="notificationcontent_AppLogoBackgroundImage_3Xtkz" src="https://cdn.steamstatic.com/steamcommunity/public/images/apps/570/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg"> */
-/*         <img src="https://cdn.steamstatic.com/steamcommunity/public/images/apps/570/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg"> */
-/*       </div> */
-/*     </div> */
-/**/
-/*     <div class="shorttemplates_Content_23dSW"> */
-/*       <div class="shorttemplates_Header_2wU4t"> */
-/*         <div class="shorttemplates_Icon_2TlJy"> */
-/*           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none"> */
-/*             <path fill-rule="evenodd" clip-rule="evenodd" d="M29 23V27H7V23H2V32H34V23H29Z" fill="currentColor"></path> */
-/*             <svg x="0" y="0" width="32" height="25"> */
-/*             <path class="DownloadArrow" d="M20 14.1716L24.5858 9.58578L27.4142 12.4142L18 21.8284L8.58582 12.4142L11.4142 9.58578L16 14.1715V2H20V14.1716Z" fill="currentColor"></path> */
-/*           </svg> */
-/*         </svg> */
-/*       </div> */
-/*       <div class="shorttemplates_Title_BkpSl">Download Complete</div> */
-/*       </div> */
-/*       <div class="shorttemplates_Body_i5dFV">Dota 2</div> */
-/*     </div> */
-/*   </div> */
-/* </div> */
-
 .gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Header_2wU4t,
 .gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Icon_2TlJy,
 .gamepadtoasts_GamepadToastPopup_3YTh8 .shorttemplates_ShortTemplate_29NLb .shorttemplates_Title_BkpSl {
