@@ -7,7 +7,7 @@
     "shared.css": [ "All" ],
     "home-page.css": [ "All" ],
     "system.css": [ "SP" ],
-    "notifications.css": [ "All" ],
+    "notifications.css": [ "notificationtoasts.*" ],
     "toggle-switch.css": [ "All" ],
     "pill-menus.css": [ "SP" ],
     "friends-list.css": [ "SP" ],
