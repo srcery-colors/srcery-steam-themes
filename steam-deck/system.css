@@ -11,9 +11,17 @@
 }
 
 #header .header_HeaderItem_2HnVd,
-.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
-.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83 {
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T,
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconLeft_2Ya83 {
   color: var(--srcery-white);
+}
+
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ:not(.gpfocuswithin) .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingSearch_NMb_F:not(.searchbar_VR_35hhe):hover .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+#header .searchbar_SearchBox_2a1-s.gpfocus,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-bright-black);
 }
 
 #header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {

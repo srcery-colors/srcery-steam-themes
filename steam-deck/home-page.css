@@ -153,7 +153,8 @@
   background: var(--srcery-xgray3);
 }
 
-.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus,
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus::placeholder {
   color: var(--srcery-black);
   background: var(--srcery-bright-white);
 }

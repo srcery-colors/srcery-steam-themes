@@ -13,6 +13,10 @@
   color: var(--srcery-white);
 }
 
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .networksettings_LockIcon_1oafX.networksettings_LargerIcon_14aKC {
+  color: var(--srcery-xgray6);
+}
+
 /* Selected Menu Element */
 .gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
 .gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin,

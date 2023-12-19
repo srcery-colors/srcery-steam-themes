@@ -98,6 +98,17 @@
   background: var(--srcery-black) !important;
 }
 
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton,
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton,
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
+  background-color: var(--srcery-xgray3);
+  color: var(--srcery-bright-black);
+}
+
+.GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton .PendingInviteCount {
+  background-color: var(--srcery-red);
+}
+
 .friendslist_TabBumper_3Jr0A svg path {
   fill: var(--srcery-white) !important;
 }
