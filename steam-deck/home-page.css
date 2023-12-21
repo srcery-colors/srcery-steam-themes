@@ -124,12 +124,18 @@
 .gamepadhomefriends_GoToFriends_MVc_6,
 .gamepadhomefriends_InGameGame_KLo2n {
   background: var(--srcery-xgray3);
+  color: var(--srcery-bright-white);
 }
 
 .gamepadhomefriends_FavoriteFriend_3SLpz:focus,
 .gamepadhomefriends_GoToFriends_MVc_6:focus,
 .gamepadhomefriends_InGameGame_KLo2n:focus {
   background: var(--srcery-xgray6);
+}
+
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj- {
+  background-color: var(--srcery-green);
+  color: var(--srcery-bright-white);
 }
 
 /** Recommended */

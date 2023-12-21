@@ -102,3 +102,9 @@
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD::before {
   background: var(--srcery-blue);
 }
+
+/* Focus Ring */
+
+.focusring_FocusRingRoot_3PH_X .focusring_FocusRing_1IZrQ {
+  outline: 2px solid var(--srcery-bright-black);
+}
