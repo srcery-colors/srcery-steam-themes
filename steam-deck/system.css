@@ -105,6 +105,30 @@
 
 /* Focus Ring */
 
+@keyframes srcery-focusring_flash_1YTKZ {
+  0% {
+    background-color: rgba(255,255,255,.08)
+  }
+
+  100% {
+    background-color: transparent
+  }
+}
+
+@keyframes srcery-focusring_fadeOutline_2hZu3 {
+  0% {
+    outline-color: var(--srcery-xgray3);
+  }
+
+  100% {
+    outline-color: var(--srcery-bright-black);
+  }
+}
+
 .focusring_FocusRingRoot_3PH_X .focusring_FocusRing_1IZrQ {
+  animation: srcery-focusring_flash_1YTKZ .5s ease,
+      focusring_growOutline_Z3LxS .4s ease,
+      srcery-focusring_fadeOutline_2hZu3 .4s ease,
+      focusring_blinker_3wFMM 1.2s ease-in-out .4s 20;
   outline: 2px solid var(--srcery-bright-black);
 }
