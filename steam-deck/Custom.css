@@ -15,10 +15,6 @@
   background: var(--srcery-xgray5);
 }
 
-.searchbar_SearchBox_2a1-s.searchbar_Visible_1bLfc.searchbar_WhiteBackground_1l8js::placeholder {
-  color: var(--srcery-black);
-}
-
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m,
 .appdetailsoverview_Container_27RcN {
   background: var(--srcery-black) !important;

@@ -15,7 +15,8 @@
     "library.css": [ "SP" ],
     "Custom.css": [  "SP" ],
     "account-page.css": [ "SP" ],
-    "loader.css": [ "SP", "QuickAccess" ]
+    "loader.css": [ "SP", "QuickAccess" ],
+    "add-friend.css": [ "SP" ]
   },
   "dependencies": {},
   "patches": {

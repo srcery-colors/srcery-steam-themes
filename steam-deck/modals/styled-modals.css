@@ -101,6 +101,20 @@
   border-color: var(--srcery-bright-white);
 }
 
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u .controllerconfigurator_interstitial_DialogHeader_3PYip,
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u .controllerconfigurator_interstitial_DescLabel_19njk {
+  color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u .controllerconfigurator_interstitial_ChordRow_2NYEW .footericons_Light_2e0Fq .footericons_Background_I3P4e {
+  color: var(--srcery-bright-white);
+}
+
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u .controllerconfigurator_interstitial_ChordRow_2NYEW img {
+  filter: var(--srcery-bright-white-filter);
+  opacity: 1;
+}
+
 .ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton {
   color: var(--srcery-bright-white);
 }
