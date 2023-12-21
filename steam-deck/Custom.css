@@ -2,10 +2,6 @@
   background: var(--srcery-blue);
 }
 
-.searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
-  background: var(--srcery-bright-white);
-}
-
 .appdetailssection_Highlight_38t1m.appdetailsachievementssection_HighlightDiv_2xTb6,
 .appdetailssection_Highlight_38t1m.appdetailstradingcardssection_BadgeSection_3g3jm {
   background-color: var(--srcery-xgray4);
@@ -140,4 +136,20 @@
 
 .salepreviewwidgets_Discounted_35-Ub {
   background: var(--srcery-bright-white);
+}
+
+/* Carousel stuff */
+
+.basicgamecarousel_TextBoxCarouselContents_3bvCH.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.Panel.Focusable.gpfocus.gpfocuswithin {
+  color: var(--srcery-bright-white);
+}
+
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+  background: linear-gradient(313deg, var(--srcery-xgray1), var(--srcery-xgray6));
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.appportrait_InRecentGames_biTV-.appportrait_BasicMode_3vi6S.Panel.Focusable.gpfocus.gpfocuswithin {
+  transition: filter,box-shadow,transform .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+  box-shadow: 0px 16px 24px 0px var(--srcery-hard-black);
+  outline: 2px solid var(--srcery-bright-black);
 }
