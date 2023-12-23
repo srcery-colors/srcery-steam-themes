@@ -18,7 +18,10 @@
 
 #header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ:not(.gpfocuswithin) .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
 #header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingSearch_NMb_F:not(.searchbar_VR_35hhe):hover .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchFieldBackground_3F4YR,
 #header .searchbar_SearchBox_2a1-s.gpfocus,
+#header .searchbar_SearchBox_2a1-s.gpfocus::placeholder,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder,
 #header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
   color: var(--srcery-bright-white);
   background-color: var(--srcery-bright-black);
@@ -98,4 +101,34 @@
 
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD::before {
   background: var(--srcery-blue);
+}
+
+/* Focus Ring */
+
+@keyframes srcery-focusring_flash_1YTKZ {
+  0% {
+    background-color: rgba(255 255 255 / 8%);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes srcery-focusring_fadeOutline_2hZu3 {
+  0% {
+    outline-color: var(--srcery-xgray3);
+  }
+
+  100% {
+    outline-color: var(--srcery-bright-black);
+  }
+}
+
+.focusring_FocusRingRoot_3PH_X .focusring_FocusRing_1IZrQ {
+  animation: srcery-focusring_flash_1YTKZ .5s ease,
+      focusring_growOutline_Z3LxS .4s ease,
+      srcery-focusring_fadeOutline_2hZu3 .4s ease,
+      focusring_blinker_3wFMM 1.2s ease-in-out .4s 20;
+  outline: 2px solid var(--srcery-bright-black);
 }

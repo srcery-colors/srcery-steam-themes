@@ -106,6 +106,15 @@
   margin-left: 10%;
 }
 
+.gamepadcontextmenu_contextMenuContents_sIgB- + .gamepadcontextmenu_contextMenuContents_sIgB- {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.gamepadcontextmenu_contextMenuFade_3jmEJ {
+  display: none;
+}
+
 /* Allign menu to left */
 .basiccontextmenu_BasicContextMenuContainer_2dUDj,
 .gamepadcontextmenu_BasicContextMenuContainer_2ZDB6 {

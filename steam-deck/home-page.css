@@ -1,3 +1,35 @@
+/* Carousel stuff */
+
+.basicgamecarousel_TextBoxCarouselContents_3bvCH.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.Panel.Focusable.gpfocus.gpfocuswithin {
+  color: var(--srcery-bright-white);
+}
+
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+  background: linear-gradient(313deg, var(--srcery-xgray1), var(--srcery-xgray6));
+}
+
+@keyframes appportrait_fadeOutline_1FLuV {
+  0% {
+    outline-color: var(--srcery-xgray3);
+  }
+
+  100% {
+    outline-color: var(--srcery-bright-black);
+  }
+}
+
+@keyframes appportrait_blinker_2tSbN {
+  50% {
+      outline: 2px solid var(--srcery-bright-white);
+  }
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus,
+.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.appportrait_InRecentGames_biTV-.appportrait_BasicMode_3vi6S.Panel.Focusable.gpfocus.gpfocuswithin {
+  box-shadow: 0 16px 24px 0 var(--srcery-hard-black);
+  outline: 2px solid var(--srcery-bright-black);
+}
+
 .BasicUI .basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
   background: transparent;
 }
@@ -124,6 +156,7 @@
 .gamepadhomefriends_GoToFriends_MVc_6,
 .gamepadhomefriends_InGameGame_KLo2n {
   background: var(--srcery-xgray3);
+  color: var(--srcery-bright-white);
 }
 
 .gamepadhomefriends_FavoriteFriend_3SLpz:focus,

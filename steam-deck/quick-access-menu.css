@@ -41,7 +41,7 @@
   color: var(--srcery-bright-black);
 }
 
-.gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu svg {
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus svg {
   color: var(--srcery-bright-white);
 }
 
@@ -138,4 +138,46 @@
 .gamepaddialog_Field_S-_La .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:last-child,
 .gamepaddialog_Field_S-_La.gpfocus.gpfocuswithin .quickaccesscontrols_BatterySectionContainer_3h5MR .quickaccesscontrols_BatteryIcon_39aNh svg path:first-child {
   fill: var(--srcery-black);
+}
+
+/* Notifications */
+
+#QuickAccess-Menu .standardtemplates_NewIndicator_3aotN svg {
+  color: var(--srcery-green);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_PinnedBody_1Ljgv,
+#QuickAccess-Menu .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L > svg,
+#QuickAccess-Menu .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L > svg,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE,
+.quickaccessmenu_QuickAccessMenu_V0cr- .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1 {
+  color: var(--srcery-bright-white);
+  filter: var(--srcery-bright-white-filter);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .notificationcontent_Timestamp_3q7nN,
+.quickaccessmenu_QuickAccessMenu_V0cr- .notificationcontent_TimestampDesktop_1N5mc,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC {
+  color: var(--srcery-xgray6);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
+  color: var(--srcery-white);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+  color: var(--srcery-bright-black);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .progressbar_ProgressBar_1-nHj {
+  background-color: var(--srcery-xgray3);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .progressbar_ProgressBar_1-nHj .progressbar_Percent_2_0Jo {
+  background-color: var(--srcery-blue) !important;
 }
