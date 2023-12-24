@@ -13,7 +13,15 @@
 }
 
 .mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z {
-  filter: brightness(0%);
+  color: var(--srcery-black);
+}
+
+.mainmenu_Menu_23IDi .mainmenu_RunnningAppSeparator_33RkH {
+  background: none;
+  background-color: var(--srcery-blue);
+  height: 3px;
+  border-radius: 3px;
+  margin: 5px auto;
 }
 
 .mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp {

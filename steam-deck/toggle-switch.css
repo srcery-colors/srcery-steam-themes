@@ -20,6 +20,10 @@
   background: var(--srcery-xgray6) !important;
 }
 
+.gamepaddialog_ToggleRail_2JtC3::before {
+  background-color: var(--srcery-blue);
+}
+
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_ToggleRail_2JtC3 {
   background: var(--srcery-xgray3) !important;
 }
@@ -27,6 +31,10 @@
 /* Slider tick text */
 .gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchLabel_u_sH1 {
   color: var(--srcery-black) !important;
+}
+
+.gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+  background-color: var(--srcery-blue);
 }
 
 /* Slider tick deactivated */
@@ -47,4 +55,8 @@
 
 .gamepadslider_Icon_21uKi svg {
   color: var(--srcery-bright-white);
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+  --left-track-color: var(--srcery-blue);
 }

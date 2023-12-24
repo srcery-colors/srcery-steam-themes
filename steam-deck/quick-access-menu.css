@@ -14,6 +14,14 @@
   background: var(--srcery-black);
 }
 
+#QuickAccess-Menu .header_Header_1E_SL.header_InQuickAccess_2mRo5 {
+  background-color: var(--srcery-black);
+}
+
+#QuickAccess-Menu .quickaccessmenu_Menu_1gJzx::before {
+  background: var(--srcery-xgray3);
+}
+
 .quickaccessmenu_Tabs_3Ag1w::after,
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after,
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorThick_28hmy::after {
@@ -39,6 +47,10 @@
 
 .quickaccessmenu_Tab_1S76C svg {
   color: var(--srcery-bright-black);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_NewIndicator_3aotN svg {
+  color: var(--srcery-green);
 }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus svg {
@@ -93,6 +105,17 @@
   filter: brightness(0);
 }
 
+/* Remote Play */
+.quickaccessmenu_QuickAccessMenu_V0cr- .remoteplay_QuickAccessTitle_2dcwM {
+  color: var(--srcery-bright-white);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .remoteplay_QuickAccessControlIcon_Ll-uN {
+  filter: var(--srcery-bright-white-filter);
+}
+
 /** Friends list */
 .friendlist {
   background: var(--srcery-black) !important;
@@ -142,13 +165,20 @@
 
 /* Notifications */
 
-#QuickAccess-Menu .standardtemplates_NewIndicator_3aotN svg {
-  color: var(--srcery-green);
+.quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:hover)+div:not(:hover)::before,
+.quickaccesscontrols_QuickAccessNotifications_2HCcx:not(.quickaccesscontrols_VR_31jiF)>div:not(:focus)+div:not(:focus)::before,
+.quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:hover)+div.quickaccesscontrols_EmptyNotifications_1g1_n::before {
+  border-bottom-color: var(--srcery-xgray3);
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplateContainer_1adpx:hover,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
+  background-color: var(--srcery-xgray3);
 }
 
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_PinnedBody_1Ljgv,
-#QuickAccess-Menu .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L > svg,
-#QuickAccess-Menu .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L > svg,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L > svg,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L > svg,
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE,
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE,
 .quickaccessmenu_QuickAccessMenu_V0cr- .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1 {
@@ -164,6 +194,7 @@
 }
 
 .quickaccessmenu_QuickAccessMenu_V0cr- .BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
+.quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
   color: var(--srcery-white);

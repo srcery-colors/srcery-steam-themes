@@ -9,7 +9,7 @@
     "system.css": [ "SP", "QuickAccess" ],
     "notifications.css": [ "notificationtoasts.*" ],
     "toggle-switch.css": [ "All" ],
-    "pill-menus.css": [ "SP" ],
+    "pill-menus.css": [ "SP", "QuickAccess" ],
     "friends-list.css": [ "SP" ],
     "downloads.css": [ "SP" ],
     "library.css": [ "SP" ],
