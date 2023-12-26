@@ -24,6 +24,10 @@
   margin: 5px auto;
 }
 
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q:not(.mainmenu_VR_1ABsh) > .mainmenu_RunnningAppSeparator_33RkH {
+  transform: translateX(0);
+}
+
 .mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp {
   position: relative;
   transform: none;

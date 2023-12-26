@@ -16,7 +16,9 @@
     "Custom.css": [  "SP" ],
     "account-page.css": [ "SP" ],
     "loader.css": [ "SP", "QuickAccess" ],
-    "add-friend.css": [ "SP" ]
+    "add-friend.css": [ "SP" ],
+    "progress-bar.css": [ "All" ],
+    "achievements.css": [ "All" ]
   },
   "dependencies": {},
   "patches": {

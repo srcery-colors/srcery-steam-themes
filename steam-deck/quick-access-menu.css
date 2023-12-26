@@ -204,11 +204,3 @@
 .quickaccessmenu_QuickAccessMenu_V0cr- .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
   color: var(--srcery-bright-black);
 }
-
-.quickaccessmenu_QuickAccessMenu_V0cr- .progressbar_ProgressBar_1-nHj {
-  background-color: var(--srcery-xgray3);
-}
-
-.quickaccessmenu_QuickAccessMenu_V0cr- .progressbar_ProgressBar_1-nHj .progressbar_Percent_2_0Jo {
-  background-color: var(--srcery-blue) !important;
-}

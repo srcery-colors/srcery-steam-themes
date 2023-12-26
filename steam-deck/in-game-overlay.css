@@ -42,10 +42,21 @@
 }
 
 .mainmenuapprunning_NavigationBox_36vNU .mainmenuapprunning_NavigationMenuItem_1G0K4 .mainmenuapprunning_ActiveDot_13YbV {
-  background: var(--srcery-blue);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  margin-top: -2px;
 }
 
-.mainmenuapprunning_AppColumn_3FAI9.Panel.Focusable {
+.mainmenuapprunning_NavigationBox_36vNU .mainmenuapprunning_NavigationMenuItem_1G0K4 .mainmenuapprunning_ActiveDot_13YbV::before {
+  content: "›";
+  color: var(--srcery-blue);
+  font-size: 1.5rem;
+  z-index: 10;
+}
+
+.mainmenuapprunning_AppColumn_3FAI9.Panel.Focusable:not(.mainmenuapprunning_FocusedColumn_lz9Db) {
   background-color: var(--srcery-hard-black);
 }
 
@@ -54,6 +65,14 @@
 }
 
 /* Achievements */
+
+.mainmenuapprunning_AppColumn_3FAI9 .achievementsheader_StatsBlock__gDkI .achievementsheader_Stat_28omE .achievementsheader_Label_17zZl {
+  color: var(--srcery-bright-white);
+}
+
+.mainmenuapprunning_AppColumn_3FAI9 .achievementsheader_StatsBlock__gDkI .achievementsheader_Stat_28omE .achievementsheader_TextValue_3SUIg {
+  color: var(--srcery-white);
+}
 
 .mainmenuapprunning_AppColumn_3FAI9 .achievementslist_AchievementList_1UXC2.achievementspage_List_2kMZ9.Panel.Focusable {
   background-color: transparent;
@@ -79,7 +98,6 @@
 .mainmenuapprunning_AppColumn_3FAI9 .achievementslist_UnlockDate_2fFW2 {
   color: var(--srcery-bright-black);
 }
-
 
 .mainmenuapprunning_AppColumn_3FAI9 .achievementslist_AchievementListItemBase_2Kmn7.gpfocuswithin.Panel.Focusable {
   background-color: var(--srcery-xgray3);
