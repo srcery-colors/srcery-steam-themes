@@ -1,0 +1,11 @@
+.progressbar_ProgressBar_1-nHj {
+  background-color: var(--srcery-xgray3) !important;
+}
+
+.progressbar_ProgressBar_1-nHj.gpfocus {
+  background-color: var(--srcery-hard-black) !important;
+}
+
+.progressbar_ProgressBar_1-nHj .progressbar_Percent_2_0Jo {
+  background-color: var(--srcery-blue) !important;
+}

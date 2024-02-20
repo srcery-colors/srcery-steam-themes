@@ -85,6 +85,21 @@
   background: var(--srcery-white);
 }
 
+/* Currently playing game */
+.contextMenuGameTitle.contextMenuUnselectable.gamepadcontextmenu_contextMenuItem_1sdvo.contextMenuItem.disabled.Panel {
+  background-color: var(--srcery-xgray1);
+}
+
+.contextMenuGameName.GamepadMode, .GamepadMode .contextMenuGameName {
+  color: var(--srcery-bright-black);
+}
+
+.GamepadMode .contextMenuGameTitle.disabled,
+.GamepadMode .contextMenuGameOptions {
+  border-left-color: var(--srcery-xgray3);
+  border-right-color: var(--srcery-xgray3);
+}
+
 /* --- */
 
 /* Modal Menu */

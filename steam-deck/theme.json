@@ -1,7 +1,7 @@
 {
   "name": "Srcery",
   "author": "milogert",
-  "version": "v0.6.1",
+  "version": "v0.7.0",
   "manifest_version": 7,
   "inject": {
     "shared.css": [ "All" ],
@@ -9,14 +9,16 @@
     "system.css": [ "SP", "QuickAccess" ],
     "notifications.css": [ "notificationtoasts.*" ],
     "toggle-switch.css": [ "All" ],
-    "pill-menus.css": [ "SP" ],
+    "pill-menus.css": [ "SP", "QuickAccess" ],
     "friends-list.css": [ "SP" ],
     "downloads.css": [ "SP" ],
     "library.css": [ "SP" ],
     "Custom.css": [  "SP" ],
     "account-page.css": [ "SP" ],
     "loader.css": [ "SP", "QuickAccess" ],
-    "add-friend.css": [ "SP" ]
+    "add-friend.css": [ "SP" ],
+    "progress-bar.css": [ "All" ],
+    "achievements.css": [ "All" ]
   },
   "dependencies": {},
   "patches": {
