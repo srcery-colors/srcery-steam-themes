@@ -1,11 +1,17 @@
+---
 name: Lint
 
 on: [push, pull_request]
+
+permissions: {}
 
 jobs:
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write # lint-action reports results as check runs
 
     steps:
       - name: Check out Git repository
