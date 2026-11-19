@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/srcery-colors/srcery-steam-deck#readme",
   "devDependencies": {
-    "stylelint": "^15.7.0",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint": "15.7.0",
+    "stylelint-config-standard": "33.0.0"
   }
 }
