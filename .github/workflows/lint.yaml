@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
       - uses: actions/setup-node@v3
 
