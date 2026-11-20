@@ -4,6 +4,13 @@ Srcery Steam Deck theme, loaded via CSS Loader, via Decky Loader. Phew
 # Steam Desktop Theme
 Srcery Theme for the Desktop Steam Application.
 
+## Fonts
+
+Both themes bundle [Iosevka](https://github.com/be5invis/Iosevka) and
+[Fira Code](https://github.com/tonsky/FiraCode), licensed under the SIL Open
+Font License 1.1. The license files (`OFL-Iosevka.txt`, `OFL-FiraCode.txt`) sit
+next to the fonts in each theme folder.
+
 ## Uploading a New Version
 
 1. Head to https://deckthemes.com/submit
